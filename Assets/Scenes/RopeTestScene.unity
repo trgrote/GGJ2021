@@ -817,6 +817,7 @@ GameObject:
   - component: {fileID: 663375413}
   - component: {fileID: 663375412}
   - component: {fileID: 663375414}
+  - component: {fileID: 663375415}
   m_Layer: 0
   m_Name: Anchor
   m_TagString: Untagged
@@ -877,7 +878,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 6
+  m_Constraints: 4
 --- !u!114 &663375414
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -890,6 +891,56 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b2ae4667f100914f927a47b6af4e390, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &663375415
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 663375410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Actions: {fileID: -944628639613478452, guid: 7b31ba35fdf0e4e409ac9fd184964e27, type: 3}
+  m_NotificationBehavior: 2
+  m_UIInputModule: {fileID: 0}
+  m_DeviceLostEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_DeviceRegainedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ControlsChangedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ActionEvents:
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 663375414}
+        m_TargetAssemblyTypeName: AnchorMovement, Assembly-CSharp
+        m_MethodName: OnMove
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 2b2ed9fb-1309-4915-8cca-a15b505d53f0
+    m_ActionName: Gamemode/Move[/Keyboard/w,/Keyboard/s,/Keyboard/a,/Keyboard/d]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: c5dc4e09-0a74-4fb5-af7d-718ed0ebde4b
+    m_ActionName: Gamemode/New action
+  m_NeverAutoSwitchControlSchemes: 0
+  m_DefaultControlScheme: 
+  m_DefaultActionMap: Gamemode
+  m_SplitScreenIndex: -1
+  m_Camera: {fileID: 0}
 --- !u!1 &873424095
 GameObject:
   m_ObjectHideFlags: 0
