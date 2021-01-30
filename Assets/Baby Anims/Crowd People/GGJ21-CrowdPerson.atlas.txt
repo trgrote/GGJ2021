@@ -1,0 +1,76 @@
+
+GGJ21-CrowdPerson.png
+size: 1459,323
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+FrontArm
+  rotate: false
+  xy: 2, 2
+  size: 356, 319
+  orig: 358, 322
+  offset: 1, 1
+  index: -1
+FrontLegLower
+  rotate: true
+  xy: 718, 4
+  size: 93, 275
+  orig: 95, 277
+  offset: 1, 1
+  index: -1
+FrontLegUpper
+  rotate: true
+  xy: 718, 4
+  size: 93, 275
+  orig: 95, 277
+  offset: 1, 1
+  index: -1
+Head
+  rotate: false
+  xy: 1139, 99
+  size: 169, 222
+  orig: 171, 224
+  offset: 1, 1
+  index: -1
+Hips
+  rotate: true
+  xy: 1310, 123
+  size: 198, 147
+  orig: 200, 149
+  offset: 1, 1
+  index: -1
+Neck
+  rotate: true
+  xy: 1272, 16
+  size: 81, 154
+  orig: 83, 156
+  offset: 1, 1
+  index: -1
+RearArm
+  rotate: false
+  xy: 360, 2
+  size: 356, 319
+  orig: 358, 322
+  offset: 1, 1
+  index: -1
+RearLegLower
+  rotate: true
+  xy: 995, 4
+  size: 93, 275
+  orig: 95, 277
+  offset: 1, 1
+  index: -1
+RearLegUpper
+  rotate: true
+  xy: 995, 4
+  size: 93, 275
+  orig: 95, 277
+  offset: 1, 1
+  index: -1
+Torso
+  rotate: true
+  xy: 718, 99
+  size: 222, 419
+  orig: 224, 421
+  offset: 1, 1
+  index: -1
