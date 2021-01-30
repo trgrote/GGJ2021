@@ -1,75 +1,215 @@
 
 GGJ21-CrowdPerson.png
-size: 1459,323
+size: 1724,837
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 FrontArm
   rotate: false
-  xy: 2, 2
+  xy: 2, 516
   size: 356, 319
   orig: 358, 322
   offset: 1, 1
   index: -1
 FrontLegLower
   rotate: true
-  xy: 718, 4
+  xy: 674, 100
   size: 93, 275
   orig: 95, 277
   offset: 1, 1
   index: -1
 FrontLegUpper
   rotate: true
-  xy: 718, 4
+  xy: 674, 100
   size: 93, 275
   orig: 95, 277
   offset: 1, 1
   index: -1
 Head
-  rotate: false
-  xy: 1139, 99
+  rotate: true
+  xy: 2, 24
   size: 169, 222
   orig: 171, 224
   offset: 1, 1
   index: -1
 Hips
-  rotate: true
-  xy: 1310, 123
+  rotate: false
+  xy: 1524, 688
   size: 198, 147
   orig: 200, 149
   offset: 1, 1
   index: -1
 Neck
-  rotate: true
-  xy: 1272, 16
+  rotate: false
+  xy: 1228, 36
   size: 81, 154
   orig: 83, 156
   offset: 1, 1
   index: -1
 RearArm
   rotate: false
-  xy: 360, 2
+  xy: 2, 195
   size: 356, 319
   orig: 358, 322
   offset: 1, 1
   index: -1
 RearLegLower
   rotate: true
-  xy: 995, 4
+  xy: 674, 5
   size: 93, 275
   orig: 95, 277
   offset: 1, 1
   index: -1
 RearLegUpper
   rotate: true
-  xy: 995, 4
+  xy: 674, 5
   size: 93, 275
   orig: 95, 277
   offset: 1, 1
   index: -1
+Skin2/FrontArm
+  rotate: false
+  xy: 360, 516
+  size: 356, 319
+  orig: 358, 322
+  offset: 1, 1
+  index: -1
+Skin2/FrontLegLower
+  rotate: false
+  xy: 1497, 113
+  size: 93, 275
+  orig: 95, 277
+  offset: 1, 1
+  index: -1
+Skin2/FrontLegUpper
+  rotate: false
+  xy: 1497, 113
+  size: 93, 275
+  orig: 95, 277
+  offset: 1, 1
+  index: -1
+Skin2/Head
+  rotate: true
+  xy: 226, 24
+  size: 169, 222
+  orig: 171, 224
+  offset: 1, 1
+  index: -1
+Skin2/Hips
+  rotate: false
+  xy: 1524, 539
+  size: 198, 147
+  orig: 200, 149
+  offset: 1, 1
+  index: -1
+Skin2/Neck
+  rotate: false
+  xy: 1311, 36
+  size: 81, 154
+  orig: 83, 156
+  offset: 1, 1
+  index: -1
+Skin2/RearArm
+  rotate: false
+  xy: 360, 195
+  size: 356, 319
+  orig: 358, 322
+  offset: 1, 1
+  index: -1
+Skin2/RearLegLower
+  rotate: false
+  xy: 1592, 113
+  size: 93, 275
+  orig: 95, 277
+  offset: 1, 1
+  index: -1
+Skin2/RearLegUpper
+  rotate: false
+  xy: 1592, 113
+  size: 93, 275
+  orig: 95, 277
+  offset: 1, 1
+  index: -1
+Skin2/Torso
+  rotate: false
+  xy: 1076, 416
+  size: 222, 419
+  orig: 224, 421
+  offset: 1, 1
+  index: -1
+Skin3/FrontArm
+  rotate: false
+  xy: 718, 516
+  size: 356, 319
+  orig: 358, 322
+  offset: 1, 1
+  index: -1
+Skin3/FrontLegLower
+  rotate: true
+  xy: 951, 97
+  size: 93, 275
+  orig: 95, 277
+  offset: 1, 1
+  index: -1
+Skin3/FrontLegUpper
+  rotate: true
+  xy: 951, 97
+  size: 93, 275
+  orig: 95, 277
+  offset: 1, 1
+  index: -1
+Skin3/Head
+  rotate: true
+  xy: 450, 24
+  size: 169, 222
+  orig: 171, 224
+  offset: 1, 1
+  index: -1
+Skin3/Hips
+  rotate: false
+  xy: 1524, 390
+  size: 198, 147
+  orig: 200, 149
+  offset: 1, 1
+  index: -1
+Skin3/Neck
+  rotate: false
+  xy: 1394, 36
+  size: 81, 154
+  orig: 83, 156
+  offset: 1, 1
+  index: -1
+Skin3/RearArm
+  rotate: false
+  xy: 718, 195
+  size: 356, 319
+  orig: 358, 322
+  offset: 1, 1
+  index: -1
+Skin3/RearLegLower
+  rotate: true
+  xy: 951, 2
+  size: 93, 275
+  orig: 95, 277
+  offset: 1, 1
+  index: -1
+Skin3/RearLegUpper
+  rotate: true
+  xy: 951, 2
+  size: 93, 275
+  orig: 95, 277
+  offset: 1, 1
+  index: -1
+Skin3/Torso
+  rotate: false
+  xy: 1300, 416
+  size: 222, 419
+  orig: 224, 421
+  offset: 1, 1
+  index: -1
 Torso
   rotate: true
-  xy: 718, 99
+  xy: 1076, 192
   size: 222, 419
   orig: 224, 421
   offset: 1, 1

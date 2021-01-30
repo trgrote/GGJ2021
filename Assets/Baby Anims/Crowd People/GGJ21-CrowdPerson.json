@@ -1,6 +1,6 @@
 {
 "skeleton": {
-	"hash": "GxQNCWxa9StmtrAdbX2uNL3QWiE",
+	"hash": "ux8g5u7PmAdRNDWa3ijQQxhBI3g",
 	"spine": "3.8.99",
 	"x": -317.99,
 	"y": -44.45,
@@ -11,15 +11,87 @@
 },
 "bones": [
 	{ "name": "root" },
-	{ "name": "Hips", "parent": "root", "length": 103.81, "rotation": -174.14, "x": 39.5, "y": 491.06 },
-	{ "name": "Torso", "parent": "Hips", "length": 331.17, "rotation": -94.02, "x": 21.34, "y": -103.34 },
-	{ "name": "Head", "parent": "Torso", "length": 169.8, "rotation": 1.74, "x": 381.79, "y": 8.98 },
-	{ "name": "FrontArm", "parent": "Torso", "length": 254.76, "rotation": 131.48, "x": 241.54, "y": -68.66 },
-	{ "name": "RearArm", "parent": "Torso", "length": 303.36, "rotation": 133.87, "x": 282.26, "y": -38.18 },
-	{ "name": "FrontLegUpper", "parent": "Hips", "length": 229.88, "rotation": 89.04, "x": 18.64, "y": 44.27 },
-	{ "name": "FrontLegLower", "parent": "FrontLegUpper", "length": 245.6, "rotation": -2.61, "x": 235.84, "y": -7.08 },
-	{ "name": "RearLegUpper", "parent": "Hips", "length": 248.69, "rotation": 84.9, "x": 80.4, "y": 5.04 },
-	{ "name": "RearLegLower", "parent": "RearLegUpper", "length": 232.31, "rotation": -0.75, "x": 251.92, "y": -3.31 }
+	{
+		"name": "Hips",
+		"parent": "root",
+		"length": 103.81,
+		"rotation": -174.14,
+		"x": 39.5,
+		"y": 491.06,
+		"skin": true
+	},
+	{
+		"name": "Torso",
+		"parent": "Hips",
+		"length": 331.17,
+		"rotation": -94.02,
+		"x": 21.34,
+		"y": -103.34,
+		"skin": true
+	},
+	{
+		"name": "Head",
+		"parent": "Torso",
+		"length": 169.8,
+		"rotation": 1.74,
+		"x": 381.79,
+		"y": 8.98,
+		"skin": true
+	},
+	{
+		"name": "FrontArm",
+		"parent": "Torso",
+		"length": 254.76,
+		"rotation": 131.48,
+		"x": 241.54,
+		"y": -68.66,
+		"skin": true
+	},
+	{
+		"name": "RearArm",
+		"parent": "Torso",
+		"length": 303.36,
+		"rotation": 133.87,
+		"x": 282.26,
+		"y": -38.18,
+		"skin": true
+	},
+	{
+		"name": "FrontLegUpper",
+		"parent": "Hips",
+		"length": 229.88,
+		"rotation": 89.04,
+		"x": 18.64,
+		"y": 44.27,
+		"skin": true
+	},
+	{
+		"name": "FrontLegLower",
+		"parent": "FrontLegUpper",
+		"length": 245.6,
+		"rotation": -2.61,
+		"x": 235.84,
+		"y": -7.08,
+		"skin": true
+	},
+	{
+		"name": "RearLegUpper",
+		"parent": "Hips",
+		"length": 248.69,
+		"rotation": 84.9,
+		"x": 80.4,
+		"y": 5.04,
+		"skin": true
+	},
+	{
+		"name": "RearLegLower",
+		"parent": "RearLegUpper",
+		"length": 232.31,
+		"rotation": -0.75,
+		"x": 251.92,
+		"y": -3.31,
+		"skin": true
+	}
 ],
 "slots": [
 	{ "name": "RearArm", "bone": "RearArm", "attachment": "RearArm" },
@@ -35,7 +107,8 @@
 ],
 "skins": [
 	{
-		"name": "default",
+		"name": "Skin1",
+		"bones": [ "FrontArm", "FrontLegLower", "FrontLegUpper", "Head", "Hips", "RearArm", "RearLegLower", "RearLegUpper", "Torso" ],
 		"attachments": {
 			"FrontArm": {
 				"FrontArm": { "x": 139.49, "y": -43.91, "rotation": 136.68, "width": 358, "height": 322 }
@@ -53,7 +126,7 @@
 				"Hips": { "x": 34.94, "y": -26.7, "rotation": 174.14, "width": 200, "height": 149 }
 			},
 			"Neck": {
-				"Neck": { "x": -23.71, "y": -3.5, "rotation": -93.58, "width": 83, "height": 156 }
+				"Neck": { "x": 0.5, "rotation": 81.08, "width": 83, "height": 156 }
 			},
 			"RearArm": {
 				"RearArm": { "x": 199, "y": -51.51, "rotation": 134.29, "width": 358, "height": 322 }
@@ -66,6 +139,78 @@
 			},
 			"Torso": {
 				"Torso": { "x": 147.51, "y": 1.99, "rotation": -91.83, "width": 224, "height": 421 }
+			}
+		}
+	},
+	{
+		"name": "Skin2",
+		"bones": [ "FrontArm", "FrontLegLower", "FrontLegUpper", "Head", "Hips", "RearArm", "RearLegLower", "RearLegUpper", "Torso" ],
+		"attachments": {
+			"FrontArm": {
+				"FrontArm": { "name": "Skin2/FrontArm", "x": 139.49, "y": -43.91, "rotation": 136.68, "width": 358, "height": 322 }
+			},
+			"FrontLegLower": {
+				"FrontLegLower": { "name": "Skin2/FrontLegLower", "x": 115.59, "y": 0.34, "rotation": 87.71, "width": 95, "height": 277 }
+			},
+			"FrontLegUpper": {
+				"FrontLegUpper": { "name": "Skin2/FrontLegUpper", "x": 86.95, "y": 6.64, "rotation": 85.1, "width": 95, "height": 277 }
+			},
+			"Head": {
+				"Head": { "name": "Skin2/Head", "x": 126, "y": 3.17, "rotation": -93.58, "width": 171, "height": 224 }
+			},
+			"Hips": {
+				"Hips": { "name": "Skin2/Hips", "x": 34.94, "y": -26.7, "rotation": 174.14, "width": 200, "height": 149 }
+			},
+			"Neck": {
+				"Neck": { "name": "Skin2/Neck", "x": 0.5, "rotation": 81.08, "width": 83, "height": 156 }
+			},
+			"RearArm": {
+				"RearArm": { "name": "Skin2/RearArm", "x": 199, "y": -51.51, "rotation": 134.29, "width": 358, "height": 322 }
+			},
+			"RearLegLower": {
+				"RearLegLower": { "name": "Skin2/RearLegLower", "x": 111.84, "y": 6.48, "rotation": 90, "width": 95, "height": 277 }
+			},
+			"RearLegUpper": {
+				"RearLegUpper": { "name": "Skin2/RearLegUpper", "x": 110.85, "y": 4.02, "rotation": 89.25, "width": 95, "height": 277 }
+			},
+			"Torso": {
+				"Torso": { "name": "Skin2/Torso", "x": 147.51, "y": 1.99, "rotation": -91.83, "width": 224, "height": 421 }
+			}
+		}
+	},
+	{
+		"name": "Skin3",
+		"bones": [ "FrontArm", "FrontLegLower", "FrontLegUpper", "Head", "Hips", "RearArm", "RearLegLower", "RearLegUpper", "Torso" ],
+		"attachments": {
+			"FrontArm": {
+				"FrontArm": { "name": "Skin3/FrontArm", "x": 139.49, "y": -43.91, "rotation": 136.68, "width": 358, "height": 322 }
+			},
+			"FrontLegLower": {
+				"FrontLegLower": { "name": "Skin3/FrontLegLower", "x": 115.59, "y": 0.34, "rotation": 87.71, "width": 95, "height": 277 }
+			},
+			"FrontLegUpper": {
+				"FrontLegUpper": { "name": "Skin3/FrontLegUpper", "x": 86.95, "y": 6.64, "rotation": 85.1, "width": 95, "height": 277 }
+			},
+			"Head": {
+				"Head": { "name": "Skin3/Head", "x": 126, "y": 3.17, "rotation": -93.58, "width": 171, "height": 224 }
+			},
+			"Hips": {
+				"Hips": { "name": "Skin3/Hips", "x": 34.94, "y": -26.7, "rotation": 174.14, "width": 200, "height": 149 }
+			},
+			"Neck": {
+				"Neck": { "name": "Skin3/Neck", "x": 0.5, "rotation": 81.08, "width": 83, "height": 156 }
+			},
+			"RearArm": {
+				"RearArm": { "name": "Skin3/RearArm", "x": 199, "y": -51.51, "rotation": 134.29, "width": 358, "height": 322 }
+			},
+			"RearLegLower": {
+				"RearLegLower": { "name": "Skin3/RearLegLower", "x": 111.84, "y": 6.48, "rotation": 90, "width": 95, "height": 277 }
+			},
+			"RearLegUpper": {
+				"RearLegUpper": { "name": "Skin3/RearLegUpper", "x": 110.85, "y": 4.02, "rotation": 89.25, "width": 95, "height": 277 }
+			},
+			"Torso": {
+				"Torso": { "name": "Skin3/Torso", "x": 147.51, "y": 1.99, "rotation": -91.83, "width": 224, "height": 421 }
 			}
 		}
 	}
