@@ -8,6 +8,8 @@ public class BuildingRepeater : MonoBehaviour
     [SerializeField] float _buildingHeight;
     [SerializeField] Transform[] _buildings;
 
+    public float Offset => -_buildingHeight * (_buildings.Length - 1) / 2;
+
     void Start()
     {
         // TODO Order buildings from top to bottom
@@ -17,9 +19,20 @@ public class BuildingRepeater : MonoBehaviour
 
             buildingTransform.localPosition = new Vector3(
                 0,
-                i * _buildingHeight - _buildingHeight * (_buildings.Length - 1) / 2,
+                i * _buildingHeight + Offset,
                 0
             );
+        }
+    }
+
+    void Update()
+    {
+        // return;
+        foreach (var buildingTransform in _buildings)
+        {
+            var newPosition = buildingTransform.localPosition + new Vector3(0, _speed * Time.deltaTime);
+            newPosition.y = Mathf.Repeat(newPosition.y - Offset, _buildingHeight * _buildings.Length) + Offset; 
+            buildingTransform.localPosition = newPosition;
         }
     }
 }
