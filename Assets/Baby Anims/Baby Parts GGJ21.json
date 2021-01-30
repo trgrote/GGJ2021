@@ -1,0 +1,285 @@
+{
+"skeleton": {
+	"hash": "FKw94lc238ImzwQY14M92qLxeik",
+	"spine": "3.8.99",
+	"x": -263,
+	"y": -526.16,
+	"width": 550,
+	"height": 540,
+	"images": "../images/",
+	"audio": "/Users/rhoiecreativedirector/Desktop/GGJ21 - Quentin Impossible"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "Body", "parent": "root", "length": 217.57, "rotation": -90.65, "x": 3.6, "y": -81.55 },
+	{ "name": "Head", "parent": "Body", "length": 105.17, "rotation": 66.2, "x": 111.57, "y": 141.09 },
+	{ "name": "FrontArm", "parent": "Body", "length": 130.56, "rotation": 0.17, "x": 234.55, "y": 42.38 },
+	{ "name": "RearArm", "parent": "Body", "length": 101.3, "rotation": 24.74, "x": 226.21, "y": 106.49 },
+	{ "name": "FrontHand", "parent": "FrontArm", "length": 41.57, "rotation": 43.36, "x": 151.09, "y": 17.58 },
+	{ "name": "RearHand", "parent": "RearArm", "length": 48.31, "rotation": 30.07, "x": 115.34, "y": 2.07 }
+],
+"slots": [
+	{ "name": "RearHandClosed", "bone": "RearHand" },
+	{ "name": "RearHandOpen", "bone": "RearHand", "attachment": "RearHandOpen" },
+	{ "name": "RearArm", "bone": "RearArm", "attachment": "RearArm" },
+	{ "name": "BabyBodyMain", "bone": "Body", "attachment": "BabyBodyMain" },
+	{ "name": "BabyMouthClosed", "bone": "Head", "attachment": "BabyMouthClosed" },
+	{ "name": "BabyMouthOpen", "bone": "Head" },
+	{ "name": "FrontHandClosed", "bone": "FrontHand", "attachment": "FrontHandClosed" },
+	{ "name": "FrontHandOpen", "bone": "FrontHand", "attachment": "FrontHandOpen" },
+	{ "name": "FrontArm", "bone": "FrontArm", "attachment": "FrontArm" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"BabyBodyMain": {
+				"BabyBodyMain": { "x": 109.05, "y": -39.37, "rotation": 90.65, "width": 452, "height": 408 }
+			},
+			"BabyMouthClosed": {
+				"BabyMouthClosed": { "x": 43.16, "y": 4.31, "rotation": 24.44, "width": 205, "height": 249 }
+			},
+			"BabyMouthOpen": {
+				"BabyMouthOpen": { "x": 40.34, "y": 8.65, "rotation": 24.44, "width": 226, "height": 232 }
+			},
+			"FrontArm": {
+				"FrontArm": { "x": 71.11, "y": -3.23, "rotation": 90.48, "width": 83, "height": 195 }
+			},
+			"FrontHandClosed": {
+				"FrontHandClosed": { "x": 23.79, "y": 6.32, "rotation": 47.12, "width": 75, "height": 68 }
+			},
+			"FrontHandOpen": {
+				"FrontHandOpen": { "x": 32.09, "y": 6.85, "rotation": 47.12, "width": 105, "height": 79 }
+			},
+			"RearArm": {
+				"RearArm": { "x": 26.23, "y": 3.04, "rotation": 65.91, "width": 118, "height": 185 }
+			},
+			"RearHandClosed": {
+				"RearHandClosed": { "x": 27.01, "y": 3.36, "rotation": 35.84, "width": 71, "height": 60 }
+			},
+			"RearHandOpen": {
+				"RearHandOpen": { "x": 41.76, "y": 4.56, "rotation": 35.84, "width": 98, "height": 84 }
+			}
+		}
+	}
+],
+"animations": {
+	"Eat": {
+		"slots": {
+			"BabyMouthClosed": {
+				"attachment": [
+					{ "time": 0.2333, "name": null },
+					{ "time": 0.3667, "name": "BabyMouthClosed" }
+				]
+			},
+			"BabyMouthOpen": {
+				"attachment": [
+					{ "time": 0.2333, "name": "BabyMouthOpen" },
+					{ "time": 0.3667, "name": null },
+					{ "time": 0.5, "name": "BabyMouthOpen" },
+					{ "time": 0.6333, "name": null }
+				]
+			},
+			"FrontHandOpen": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"RearHandClosed": {
+				"attachment": [
+					{ "name": "RearHandClosed" }
+				]
+			}
+		},
+		"bones": {
+			"FrontHand": {
+				"rotate": [
+					{ "angle": -13.98 },
+					{ "time": 0.1333, "angle": 11.42 }
+				]
+			},
+			"FrontArm": {
+				"rotate": [
+					{ "angle": -5.64 },
+					{ "time": 0.1333, "angle": 65.09 }
+				]
+			},
+			"RearArm": {
+				"rotate": [
+					{ "angle": -46.71 },
+					{ "time": 0.1333, "angle": 32.78 }
+				]
+			},
+			"RearHand": {
+				"rotate": [
+					{ "time": 0.1333, "angle": 45.07 }
+				]
+			},
+			"root": {
+				"rotate": [
+					{ "time": 0.1333, "angle": 15.26 }
+				]
+			},
+			"Body": {
+				"rotate": [
+					{},
+					{ "time": 0.2667, "angle": -12.31 },
+					{ "time": 0.4333, "angle": -24.34 },
+					{ "time": 0.5667, "angle": -6.35 }
+				]
+			}
+		}
+	},
+	"Grab": {
+		"slots": {
+			"FrontHandClosed": {
+				"attachment": [
+					{ "name": null },
+					{ "time": 0.3, "name": "FrontHandClosed" }
+				]
+			},
+			"FrontHandOpen": {
+				"attachment": [
+					{ "time": 0.3, "name": null },
+					{ "time": 0.3333, "name": "FrontHandOpen" }
+				]
+			},
+			"RearHandClosed": {
+				"attachment": [
+					{ "time": 0.3, "name": "RearHandClosed" }
+				]
+			},
+			"RearHandOpen": {
+				"attachment": [
+					{ "time": 0.3, "name": null },
+					{ "time": 0.3333, "name": "RearHandOpen" }
+				]
+			}
+		},
+		"bones": {
+			"FrontHand": {
+				"rotate": [
+					{},
+					{ "time": 0.1333, "angle": -22.15 },
+					{ "time": 0.3333, "angle": -13.98 }
+				]
+			},
+			"FrontArm": {
+				"rotate": [
+					{},
+					{ "time": 0.1333, "angle": -46.29 },
+					{ "time": 0.3333, "angle": -5.64 }
+				],
+				"translate": [
+					{},
+					{ "time": 0.1333, "x": -27.2, "y": 5.51 }
+				]
+			},
+			"Head": {
+				"rotate": [
+					{},
+					{ "time": 0.0667, "angle": -30.83 },
+					{ "time": 0.2333, "angle": -36.11 }
+				],
+				"translate": [
+					{},
+					{ "time": 0.2333, "x": -31.36, "y": 30.65 }
+				]
+			},
+			"Body": {
+				"rotate": [
+					{},
+					{ "time": 0.0667, "angle": -15.67 }
+				]
+			},
+			"RearArm": {
+				"rotate": [
+					{},
+					{ "time": 0.1333, "angle": 17.93 },
+					{ "time": 0.3333, "angle": -46.71 }
+				],
+				"translate": [
+					{},
+					{ "time": 0.1333, "x": -2.14, "y": 17.42 }
+				]
+			}
+		}
+	},
+	"Idle": {
+		"slots": {
+			"FrontHandClosed": {
+				"attachment": [
+					{ "name": null }
+				]
+			}
+		},
+		"bones": {
+			"Head": {
+				"rotate": [
+					{},
+					{ "time": 0.2333, "angle": 10.98 },
+					{ "time": 0.5 },
+					{ "time": 1.2333, "angle": -8.69 },
+					{ "time": 2 }
+				]
+			},
+			"Body": {
+				"rotate": [
+					{},
+					{ "time": 0.5, "angle": -11.42 },
+					{ "time": 1, "angle": 5.72 },
+					{ "time": 2 }
+				]
+			},
+			"FrontArm": {
+				"rotate": [
+					{},
+					{ "time": 0.7667, "angle": -27.38 },
+					{ "time": 2 }
+				],
+				"translate": [
+					{},
+					{ "time": 0.7667, "x": -15.97 },
+					{ "time": 1.3333, "x": -25.48 },
+					{ "time": 2 }
+				]
+			},
+			"RearArm": {
+				"rotate": [
+					{},
+					{ "time": 0.2, "angle": 9.21 },
+					{ "time": 1.3333, "angle": -10.44 },
+					{ "time": 2 }
+				],
+				"translate": [
+					{},
+					{ "time": 1.3333, "x": 15.8, "y": 4.95 },
+					{ "time": 2 }
+				]
+			},
+			"FrontHand": {
+				"rotate": [
+					{ "angle": -19.06 },
+					{ "time": 0.2, "angle": 10.54 },
+					{ "time": 1, "angle": -49.28 },
+					{ "time": 1.3333, "angle": -9.96 },
+					{ "time": 2 }
+				],
+				"translate": [
+					{},
+					{ "time": 1.3333, "x": -11.04, "y": -10.46 },
+					{ "time": 2 }
+				]
+			},
+			"RearHand": {
+				"rotate": [
+					{},
+					{ "time": 0.2, "angle": 39.42 },
+					{ "time": 1.3333, "angle": -7.31 },
+					{ "time": 2 }
+				]
+			}
+		}
+	}
+}
+}
