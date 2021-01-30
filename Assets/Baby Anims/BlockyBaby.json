@@ -1,6 +1,6 @@
 {
 "skeleton": {
-	"hash": "p+z4oyi+tC4kQdX4IJ1uQty9oCs",
+	"hash": "2vwjfvZ3UqYKlIujBPQ1v9cJptU",
 	"spine": "3.8.99",
 	"x": -602.02,
 	"y": -1017.04,
@@ -81,11 +81,6 @@
 					{ "time": 0.2667, "x": 57.46, "y": -85.96 }
 				]
 			},
-			"Torso": {
-				"rotate": [
-					{ "angle": -0.77 }
-				]
-			},
 			"Head": {
 				"rotate": [
 					{ "angle": -27.27 },
@@ -135,13 +130,6 @@
 			}
 		},
 		"bones": {
-			"Torso": {
-				"rotate": [
-					{},
-					{ "time": 0.1333, "angle": -8.37 },
-					{ "time": 0.3333, "angle": -0.77 }
-				]
-			},
 			"RearHand": {
 				"rotate": [
 					{},
@@ -209,14 +197,6 @@
 			}
 		},
 		"bones": {
-			"Torso": {
-				"rotate": [
-					{ "angle": -6.97 },
-					{ "time": 0.2667, "angle": -17.84 },
-					{ "time": 0.8, "angle": 17.39 },
-					{ "time": 1, "angle": -6.97 }
-				]
-			},
 			"FrontHand": {
 				"rotate": [
 					{ "angle": -39.48 },
