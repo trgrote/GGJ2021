@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BuildingRepeater : MonoBehaviour
 {
-    [SerializeField] float _speed;
+    public float _speed;
     [SerializeField] float _buildingHeight;
     [SerializeField] Transform[] _buildings;
 
