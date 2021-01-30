@@ -1,0 +1,55 @@
+
+BlockyBaby.png
+size: 1634,965
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+FrontArm
+  rotate: false
+  xy: 1341, 121
+  size: 291, 383
+  orig: 293, 385
+  offset: 1, 1
+  index: -1
+FrontHand
+  rotate: false
+  xy: 1468, 702
+  size: 140, 128
+  orig: 142, 130
+  offset: 1, 1
+  index: -1
+HeadMouthClosed copy
+  rotate: true
+  xy: 882, 506
+  size: 457, 475
+  orig: 459, 477
+  offset: 1, 1
+  index: -1
+HeadMouthOpen copy
+  rotate: false
+  xy: 882, 29
+  size: 457, 475
+  orig: 459, 477
+  offset: 1, 1
+  index: -1
+Rear Arm
+  rotate: false
+  xy: 1359, 556
+  size: 107, 407
+  orig: 109, 409
+  offset: 1, 1
+  index: -1
+RearHand
+  rotate: true
+  xy: 1468, 832
+  size: 131, 139
+  orig: 133, 141
+  offset: 1, 1
+  index: -1
+Torso
+  rotate: true
+  xy: 2, 2
+  size: 961, 878
+  orig: 963, 880
+  offset: 1, 1
+  index: -1
