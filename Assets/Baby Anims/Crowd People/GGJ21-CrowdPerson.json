@@ -1,6 +1,6 @@
 {
 "skeleton": {
-	"hash": "gP5DJEKQ5sacCAKn8sT//bThTq0",
+	"hash": "LSW5P1xl0XOBhtKG4vBF5sy/5II",
 	"spine": "3.8.99",
 	"x": -317.99,
 	"y": -44.45,
@@ -92,7 +92,7 @@
 		"y": -3.31,
 		"skin": true
 	},
-	{ "name": "RearArm2", "parent": "RearArm", "x": 367.6, "y": -52.08, "skin": true }
+	{ "name": "PropAttach", "parent": "RearArm", "x": 367.6, "y": -52.08, "skin": true }
 ],
 "slots": [
 	{ "name": "RearArm", "bone": "RearArm", "attachment": "RearArm" },
@@ -109,7 +109,7 @@
 "skins": [
 	{
 		"name": "Skin1",
-		"bones": [ "FrontArm", "FrontLegLower", "FrontLegUpper", "Head", "Hips", "RearArm", "RearArm2", "RearLegLower", "RearLegUpper", "Torso" ],
+		"bones": [ "FrontArm", "FrontLegLower", "FrontLegUpper", "Head", "Hips", "RearArm", "PropAttach", "RearLegLower", "RearLegUpper", "Torso" ],
 		"attachments": {
 			"FrontArm": {
 				"FrontArm": { "x": 139.49, "y": -43.91, "rotation": 136.68, "width": 358, "height": 322 }
@@ -181,7 +181,7 @@
 	},
 	{
 		"name": "Skin3",
-		"bones": [ "FrontArm", "FrontLegLower", "FrontLegUpper", "Head", "Hips", "RearArm", "RearArm2", "RearLegLower", "RearLegUpper", "Torso" ],
+		"bones": [ "FrontArm", "FrontLegLower", "FrontLegUpper", "Head", "Hips", "RearArm", "PropAttach", "RearLegLower", "RearLegUpper", "Torso" ],
 		"attachments": {
 			"FrontArm": {
 				"FrontArm": { "name": "Skin3/FrontArm", "x": 139.49, "y": -43.91, "rotation": 136.68, "width": 358, "height": 322 }
