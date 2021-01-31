@@ -17,7 +17,6 @@ public class CrowdSpawner : MonoBehaviour
         var movement = npc.GetComponent<CrowdMovement>();
         if (movement)
         {
-            Debug.Log("Found");
             movement.Init(Direction);
         }
     }

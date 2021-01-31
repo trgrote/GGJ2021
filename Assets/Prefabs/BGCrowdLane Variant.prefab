@@ -83,6 +83,14 @@ PrefabInstance:
       propertyPath: _npc.Array.data[5]
       value: 
       objectReference: {fileID: 8875440441337891528, guid: 2bd0b377e05444e80afb87d13e8b04c9, type: 3}
+    - target: {fileID: 8060377136324065741, guid: b9766cc200a2494419237d03ac595287, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -40
+      objectReference: {fileID: 0}
+    - target: {fileID: 8060377136498285402, guid: b9766cc200a2494419237d03ac595287, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 40
+      objectReference: {fileID: 0}
     - target: {fileID: 8060377136498285405, guid: b9766cc200a2494419237d03ac595287, type: 3}
       propertyPath: _npc.Array.size
       value: 6

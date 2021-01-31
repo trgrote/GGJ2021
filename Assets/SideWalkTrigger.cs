@@ -11,7 +11,6 @@ public class SideWalkTrigger : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collider)
     {
-        Debug.Log("OnTriggerEnter2D");
         if (_allNPCs.Contains(collider.gameObject))
         {
             var movement = collider.GetComponent<CrowdMovement>();
