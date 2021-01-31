@@ -216,7 +216,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 67772955}
-  m_LocalRotation: {x: -7.3579105e-16, y: 0.000000027959459, z: 2.0572319e-23, w: 1}
+  m_LocalRotation: {x: 1.0352915e-15, y: 0.00000002795946, z: -2.8946194e-23, w: 1}
   m_LocalPosition: {x: 0, y: 5.688, z: -7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -4306,10 +4306,6 @@ PrefabInstance:
     - target: {fileID: 1934168211843183805, guid: ad39a3571dad8e943adfa87e1e2be2b8, type: 3}
       propertyPath: m_Name
       value: InstructionsCanvas
-      objectReference: {fileID: 0}
-    - target: {fileID: 1934168211843183805, guid: ad39a3571dad8e943adfa87e1e2be2b8, type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad39a3571dad8e943adfa87e1e2be2b8, type: 3}
