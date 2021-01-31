@@ -268,3 +268,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _introSource: {fileID: 5421450005883865673}
   _loopedSource: {fileID: 5421450005883865676}
+  _introOverEvent: {fileID: 11400000, guid: e7ea208c85ddfdc49a22031501a225ba, type: 2}
