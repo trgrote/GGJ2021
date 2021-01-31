@@ -2228,8 +2228,6 @@ GameObject:
   - component: {fileID: 1337755940}
   - component: {fileID: 1337755939}
   - component: {fileID: 1337755938}
-  - component: {fileID: 1337755937}
-  - component: {fileID: 1337755936}
   m_Layer: 5
   m_Name: PressAnyKeyText
   m_TagString: Untagged
@@ -2256,69 +2254,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 20}
   m_SizeDelta: {x: -380, y: 54.2672}
   m_Pivot: {x: 0.5, y: 0}
---- !u!114 &1337755936
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1337755934}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Actions: {fileID: -944628639613478452, guid: 7b31ba35fdf0e4e409ac9fd184964e27, type: 3}
-  m_NotificationBehavior: 2
-  m_UIInputModule: {fileID: 0}
-  m_DeviceLostEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_DeviceRegainedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_ControlsChangedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_ActionEvents:
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 2b2ed9fb-1309-4915-8cca-a15b505d53f0
-    m_ActionName: Gamemode/Move[/Keyboard/w,/Keyboard/s,/Keyboard/a,/Keyboard/d,/Keyboard/upArrow,/Keyboard/downArrow,/Keyboard/leftArrow,/Keyboard/rightArrow,/XInputControllerWindows/leftStick]
-  - m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1337755937}
-        m_TargetAssemblyTypeName: EventRaiser, Assembly-CSharp
-        m_MethodName: RaiseEvent
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_ActionId: 6731079c-9983-4695-8263-775fc79b21bc
-    m_ActionName: Menu/Start[/Keyboard/anyKey,/XInputControllerWindows/start]
-  m_NeverAutoSwitchControlSchemes: 0
-  m_DefaultControlScheme: 
-  m_DefaultActionMap: Menu
-  m_SplitScreenIndex: -1
-  m_Camera: {fileID: 0}
---- !u!114 &1337755937
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1337755934}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 223a7e15717f338489c86e326759303b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _event: {fileID: 11400000, guid: f3b1348c61975e543b3fbbc4227ffdae, type: 2}
 --- !u!95 &1337755938
 Animator:
   serializedVersion: 3
@@ -2835,8 +2770,6 @@ GameObject:
   - component: {fileID: 1552245932}
   - component: {fileID: 1552245931}
   - component: {fileID: 1552245933}
-  - component: {fileID: 1552245935}
-  - component: {fileID: 1552245934}
   m_Layer: 5
   m_Name: PressAnyKeyText
   m_TagString: Untagged
@@ -2924,69 +2857,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &1552245934
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1552245929}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Actions: {fileID: -944628639613478452, guid: 7b31ba35fdf0e4e409ac9fd184964e27, type: 3}
-  m_NotificationBehavior: 2
-  m_UIInputModule: {fileID: 0}
-  m_DeviceLostEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_DeviceRegainedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_ControlsChangedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_ActionEvents:
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 2b2ed9fb-1309-4915-8cca-a15b505d53f0
-    m_ActionName: Gamemode/Move[/Keyboard/w,/Keyboard/s,/Keyboard/a,/Keyboard/d,/Keyboard/upArrow,/Keyboard/downArrow,/Keyboard/leftArrow,/Keyboard/rightArrow,/XInputControllerWindows/leftStick]
-  - m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1552245935}
-        m_TargetAssemblyTypeName: EventRaiser, Assembly-CSharp
-        m_MethodName: RaiseEvent
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_ActionId: 6731079c-9983-4695-8263-775fc79b21bc
-    m_ActionName: Menu/Start[/Keyboard/anyKey,/XInputControllerWindows/start]
-  m_NeverAutoSwitchControlSchemes: 0
-  m_DefaultControlScheme: 
-  m_DefaultActionMap: Menu
-  m_SplitScreenIndex: -1
-  m_Camera: {fileID: 0}
---- !u!114 &1552245935
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1552245929}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 223a7e15717f338489c86e326759303b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _event: {fileID: 11400000, guid: f3b1348c61975e543b3fbbc4227ffdae, type: 2}
 --- !u!1 &1565991805
 GameObject:
   m_ObjectHideFlags: 0
@@ -4414,3 +4284,60 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ab4a0f2e0903b846917b465c27d1a63, type: 3}
+--- !u!1001 &7502758664651141609
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7502758665067487763, guid: b4619461bce287d43be11afec170e705, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7502758665067487763, guid: b4619461bce287d43be11afec170e705, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 8.501984
+      objectReference: {fileID: 0}
+    - target: {fileID: 7502758665067487763, guid: b4619461bce287d43be11afec170e705, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 257.8248
+      objectReference: {fileID: 0}
+    - target: {fileID: 7502758665067487763, guid: b4619461bce287d43be11afec170e705, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -17.31089
+      objectReference: {fileID: 0}
+    - target: {fileID: 7502758665067487763, guid: b4619461bce287d43be11afec170e705, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7502758665067487763, guid: b4619461bce287d43be11afec170e705, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7502758665067487763, guid: b4619461bce287d43be11afec170e705, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7502758665067487763, guid: b4619461bce287d43be11afec170e705, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7502758665067487763, guid: b4619461bce287d43be11afec170e705, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7502758665067487763, guid: b4619461bce287d43be11afec170e705, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7502758665067487763, guid: b4619461bce287d43be11afec170e705, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7502758665067487774, guid: b4619461bce287d43be11afec170e705, type: 3}
+      propertyPath: m_Name
+      value: MenuInputHandler
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b4619461bce287d43be11afec170e705, type: 3}
