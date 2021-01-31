@@ -4667,38 +4667,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1305402396}
     m_Modifications:
-    - target: {fileID: 7095562754003297510, guid: c61bc6460a129dd49880393bb2380ffb, type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7095562754003297510, guid: c61bc6460a129dd49880393bb2380ffb, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 7095562754003297510, guid: c61bc6460a129dd49880393bb2380ffb, type: 3}
-      propertyPath: m_AnchorMin.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7095562754003297510, guid: c61bc6460a129dd49880393bb2380ffb, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 7095562754003297510, guid: c61bc6460a129dd49880393bb2380ffb, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: -904.7293
-      objectReference: {fileID: 0}
-    - target: {fileID: 7095562754003297510, guid: c61bc6460a129dd49880393bb2380ffb, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 1.362793
-      objectReference: {fileID: 0}
-    - target: {fileID: 7095562754003297510, guid: c61bc6460a129dd49880393bb2380ffb, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -4.635315
-      objectReference: {fileID: 0}
-    - target: {fileID: 7095562754003297510, guid: c61bc6460a129dd49880393bb2380ffb, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 94.89899
-      objectReference: {fileID: 0}
     - target: {fileID: 8720443295948817329, guid: c61bc6460a129dd49880393bb2380ffb, type: 3}
       propertyPath: m_Name
       value: MainMenuCanvas
@@ -4787,38 +4755,5 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8720443296040535934, guid: c61bc6460a129dd49880393bb2380ffb, type: 3}
-      propertyPath: m_Text
-      value: PRESS E  KEY
-      objectReference: {fileID: 0}
-    - target: {fileID: 8720443296040535934, guid: c61bc6460a129dd49880393bb2380ffb, type: 3}
-      propertyPath: m_FontData.m_BestFit
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8720443296040535935, guid: c61bc6460a129dd49880393bb2380ffb, type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8720443296040535935, guid: c61bc6460a129dd49880393bb2380ffb, type: 3}
-      propertyPath: m_AnchorMin.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8720443296040535935, guid: c61bc6460a129dd49880393bb2380ffb, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: -563.89
-      objectReference: {fileID: 0}
-    - target: {fileID: 8720443296040535935, guid: c61bc6460a129dd49880393bb2380ffb, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 54.6932
-      objectReference: {fileID: 0}
-    - target: {fileID: 8720443296040535935, guid: c61bc6460a129dd49880393bb2380ffb, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8720443296040535935, guid: c61bc6460a129dd49880393bb2380ffb, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -99
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 523999572342501422, guid: c61bc6460a129dd49880393bb2380ffb, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c61bc6460a129dd49880393bb2380ffb, type: 3}
