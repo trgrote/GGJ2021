@@ -18,7 +18,6 @@ public class SideWalkTrigger : MonoBehaviour
             if (movement)
             {
                 var direction = movement.Direction;
-                Debug.Log($"Movement Found {direction}");
 
                 // If NPC is moving left, and we are handle left moving targets
                 // Else If NPC is moving right, and we are handle right moving targets
