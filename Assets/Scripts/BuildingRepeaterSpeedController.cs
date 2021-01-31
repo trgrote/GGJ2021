@@ -8,16 +8,13 @@ public class BuildingRepeaterSpeedController : MonoBehaviour
     [SerializeField] float _upwardSpeed;
     [SerializeField] float _downwardSpeed;
 
-    IEnumerator SpeedTranstiion()
-    {
-        _buildingRepeater._speed = _upwardSpeed;
-        yield return new WaitForSeconds(2.0f);
-        _buildingRepeater._speed = _downwardSpeed;
-    }
-
     public void OnStateChange_Falling()
     {
-        StartCoroutine(SpeedTranstiion());
+        _buildingRepeater._speed = _upwardSpeed;
     }
 
+    public void OnStateChange_Falling_IntroDone()
+    {
+        _buildingRepeater._speed = _downwardSpeed;
+    }
 }

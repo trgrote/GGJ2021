@@ -48,6 +48,7 @@ GameObject:
   - component: {fileID: 5258457262249923897}
   - component: {fileID: 5258457262249923898}
   - component: {fileID: 5258457262249923899}
+  - component: {fileID: 2532782190494838591}
   m_Layer: 0
   m_Name: BuildingRepeater
   m_TagString: Untagged
@@ -124,6 +125,34 @@ MonoBehaviour:
       - m_Target: {fileID: 5258457262249923898}
         m_TargetAssemblyTypeName: BuildingRepeaterSpeedController, Assembly-CSharp
         m_MethodName: OnStateChange_Falling
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &2532782190494838591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5258457262249923878}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a5a2a465af8023499ee45e047c4765c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: {fileID: 11400000, guid: e7ea208c85ddfdc49a22031501a225ba, type: 2}
+  Response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5258457262249923898}
+        m_TargetAssemblyTypeName: BuildingRepeaterSpeedController, Assembly-CSharp
+        m_MethodName: OnStateChange_Falling_IntroDone
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
