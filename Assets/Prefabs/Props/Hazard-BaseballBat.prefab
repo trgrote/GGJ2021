@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6411071049907219687}
   - component: {fileID: 6411071049907219680}
   - component: {fileID: 6411071049907219681}
+  - component: {fileID: -1567017632135715236}
   m_Layer: 0
   m_Name: Hazard-BaseballBat
   m_TagString: Untagged
@@ -178,3 +179,16 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &-1567017632135715236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6411071049907219683}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac76703abb1f65458dcb740cc1d38b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _runtimeSet: {fileID: 11400000, guid: 2f591499105a89047a30816eab8a9fa4, type: 2}

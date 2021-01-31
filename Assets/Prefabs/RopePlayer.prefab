@@ -4212,6 +4212,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 9121848249085990316}
     m_Modifications:
+    - target: {fileID: 455315465, guid: f673312bf6f06484ca49fdc3f25f0b7b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.99901366
+      objectReference: {fileID: 0}
+    - target: {fileID: 455315465, guid: f673312bf6f06484ca49fdc3f25f0b7b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.044404026
+      objectReference: {fileID: 0}
+    - target: {fileID: 772874215, guid: f673312bf6f06484ca49fdc3f25f0b7b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9999725
+      objectReference: {fileID: 0}
+    - target: {fileID: 772874215, guid: f673312bf6f06484ca49fdc3f25f0b7b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.0074175685
+      objectReference: {fileID: 0}
+    - target: {fileID: 1829526346, guid: f673312bf6f06484ca49fdc3f25f0b7b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.6774539
+      objectReference: {fileID: 0}
+    - target: {fileID: 1829526346, guid: f673312bf6f06484ca49fdc3f25f0b7b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.73556525
+      objectReference: {fileID: 0}
     - target: {fileID: 28271350861566946, guid: f673312bf6f06484ca49fdc3f25f0b7b, type: 3}
       propertyPath: m_Name
       value: BlockyBaby
@@ -4263,6 +4287,18 @@ PrefabInstance:
     - target: {fileID: 28271350861566951, guid: f673312bf6f06484ca49fdc3f25f0b7b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1640736605382335355, guid: f673312bf6f06484ca49fdc3f25f0b7b, type: 3}
+      propertyPath: _weapons
+      value: 
+      objectReference: {fileID: 11400000, guid: 2f591499105a89047a30816eab8a9fa4, type: 2}
+    - target: {fileID: 1640736605382335355, guid: f673312bf6f06484ca49fdc3f25f0b7b, type: 3}
+      propertyPath: _thudEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: ce98cccf9e8a5455eb154e283b94bb2d, type: 2}
+    - target: {fileID: 9121848248920120006, guid: f673312bf6f06484ca49fdc3f25f0b7b, type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: -1.70667
       objectReference: {fileID: 0}
     - target: {fileID: 9121848248920120006, guid: f673312bf6f06484ca49fdc3f25f0b7b, type: 3}
       propertyPath: m_ConnectedRigidBody
