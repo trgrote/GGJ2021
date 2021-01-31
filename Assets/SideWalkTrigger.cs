@@ -25,6 +25,7 @@ public class SideWalkTrigger : MonoBehaviour
                 if (_left && direction.x < 0 || !_left && direction.x > 0)
                 {
                     collider.gameObject.transform.Translate(new Vector3(0, _pushDistance, 0));
+                    Physics2D.IgnoreCollision(collider, GetComponent<Collider2D>());
                 }
             }
         }

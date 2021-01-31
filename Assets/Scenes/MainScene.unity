@@ -1242,6 +1242,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RightSidewalkPusherUp
       objectReference: {fileID: 0}
+    - target: {fileID: 2433922201176885571, guid: 3a0f681c6aa393e4094718ab87a106ad, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2433922201176885582, guid: 3a0f681c6aa393e4094718ab87a106ad, type: 3}
       propertyPath: _left
       value: 0
@@ -1864,7 +1868,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2433922201176885568, guid: 3a0f681c6aa393e4094718ab87a106ad, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 12.06
+      value: 12.35
       objectReference: {fileID: 0}
     - target: {fileID: 2433922201176885568, guid: 3a0f681c6aa393e4094718ab87a106ad, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1905,6 +1909,10 @@ PrefabInstance:
     - target: {fileID: 2433922201176885571, guid: 3a0f681c6aa393e4094718ab87a106ad, type: 3}
       propertyPath: m_Name
       value: RightSidewalkPusherDown
+      objectReference: {fileID: 0}
+    - target: {fileID: 2433922201176885571, guid: 3a0f681c6aa393e4094718ab87a106ad, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2433922201176885582, guid: 3a0f681c6aa393e4094718ab87a106ad, type: 3}
       propertyPath: _left
@@ -2189,9 +2197,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: LeftSidewalkPusherDown
       objectReference: {fileID: 0}
+    - target: {fileID: 2433922201176885571, guid: 3a0f681c6aa393e4094718ab87a106ad, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2433922201176885582, guid: 3a0f681c6aa393e4094718ab87a106ad, type: 3}
       propertyPath: _left
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2433922201176885582, guid: 3a0f681c6aa393e4094718ab87a106ad, type: 3}
       propertyPath: _pushDistance
@@ -2266,6 +2278,10 @@ PrefabInstance:
     - target: {fileID: 8060377136498285402, guid: b9766cc200a2494419237d03ac595287, type: 3}
       propertyPath: m_LocalPosition.x
       value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 8060377136498285403, guid: b9766cc200a2494419237d03ac595287, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b9766cc200a2494419237d03ac595287, type: 3}
@@ -4269,9 +4285,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: LeftSidewalkPusherUp
       objectReference: {fileID: 0}
+    - target: {fileID: 2433922201176885571, guid: 3a0f681c6aa393e4094718ab87a106ad, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2433922201176885582, guid: 3a0f681c6aa393e4094718ab87a106ad, type: 3}
       propertyPath: _left
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a0f681c6aa393e4094718ab87a106ad, type: 3}
