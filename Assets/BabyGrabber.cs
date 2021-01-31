@@ -11,6 +11,8 @@ public class BabyGrabber : MonoBehaviour
 
     [SerializeField] Animator _animator;
 
+    [SerializeField] Score _score;
+
     // Update is called once per frame
     public void OnBabyCollision(Collider2D collider)
     {
@@ -19,6 +21,7 @@ public class BabyGrabber : MonoBehaviour
             Destroy(collider.gameObject);
             _animator.SetTrigger("Eat");
             _eatEvent.Raise();
+            _score._score++;
         }
     }
 

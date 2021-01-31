@@ -1984,6 +1984,7 @@ GameObject:
   - component: {fileID: 1305402395}
   - component: {fileID: 1305402397}
   - component: {fileID: 1305402398}
+  - component: {fileID: 1305402399}
   m_Layer: 0
   m_Name: CanvasController
   m_TagString: Untagged
@@ -2091,6 +2092,34 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1305402399
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1305402394}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a5a2a465af8023499ee45e047c4765c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: {fileID: 11400000, guid: 2ffd2d23d6a42fc47a8c6bcc26e1b2de, type: 2}
+  Response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1842714579}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
         m_CallState: 2
 --- !u!1 &1311705669
 GameObject:
@@ -2738,6 +2767,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac0b09e7857660247b1477e93731de29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1842714579 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5071190958583574100, guid: 6733e62e46aab6f40bf4ccc6fa32de38, type: 3}
+  m_PrefabInstance: {fileID: 7654046270286442427}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1883930998 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: bf2f9866eb2064307ba89bc91bbd310e, type: 3}
@@ -3894,6 +3928,10 @@ PrefabInstance:
       propertyPath: m_ConnectedAnchor.y
       value: -1.5133284
       objectReference: {fileID: 0}
+    - target: {fileID: 7517142852222929602, guid: b81d4c89a6a51c94896ba45cd7795051, type: 3}
+      propertyPath: _score
+      value: 
+      objectReference: {fileID: 11400000, guid: 9f8bc0f3ff3bdc34c8f0c4472a174f64, type: 2}
     - target: {fileID: 9121848248632798021, guid: b81d4c89a6a51c94896ba45cd7795051, type: 3}
       propertyPath: m_ConnectedAnchor.y
       value: -1.6266886
@@ -4592,6 +4630,22 @@ PrefabInstance:
     - target: {fileID: 2022421201894635225, guid: 6733e62e46aab6f40bf4ccc6fa32de38, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3654432014713159099, guid: 6733e62e46aab6f40bf4ccc6fa32de38, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3654432014713159099, guid: 6733e62e46aab6f40bf4ccc6fa32de38, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3654432014713159099, guid: 6733e62e46aab6f40bf4ccc6fa32de38, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3654432014713159099, guid: 6733e62e46aab6f40bf4ccc6fa32de38, type: 3}
+      propertyPath: m_FontData.m_BestFit
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5071190958583574100, guid: 6733e62e46aab6f40bf4ccc6fa32de38, type: 3}
       propertyPath: m_Name
