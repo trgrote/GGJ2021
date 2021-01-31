@@ -341,7 +341,7 @@ Transform:
   m_GameObject: {fileID: 3806694315996253508}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: -1, y: 1, z: 1}
   m_Children:
   - {fileID: 2185316967984008473}
   m_Father: {fileID: 4505069823298102706}
@@ -360,6 +360,7 @@ GameObject:
   - component: {fileID: 4505069823298102708}
   - component: {fileID: 4505069823298102709}
   - component: {fileID: 4505069823298102710}
+  - component: {fileID: 8727354477060185791}
   - component: {fileID: 3137201199223642456}
   - component: {fileID: -731237179361588653}
   - component: {fileID: -1419099374206084628}
@@ -449,7 +450,7 @@ Animator:
   m_Controller: {fileID: 9100000, guid: 03cb6c8ff95294fe887d6b7c5f02e9c9, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
-  m_ApplyRootMotion: 0
+  m_ApplyRootMotion: 1
   m_LinearVelocityBlending: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
@@ -469,7 +470,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   skeletonDataAsset: {fileID: 11400000, guid: 350d1ab5fe5d54b5ca1d5ec14d89531c, type: 2}
   initialSkinName: Kid1
-  initialFlipX: 0
+  initialFlipX: 1
   initialFlipY: 0
   updateWhenInvisible: 3
   separatorSlotNames: []
@@ -494,6 +495,26 @@ MonoBehaviour:
     useCustomMixMode: 1
     layerMixModes: 01000000
     layerBlendModes: 01000000
+--- !u!114 &8727354477060185791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4505069823298102711}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95813afe390494344a6ce2cbc8bfb7d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rootMotionBoneName: root
+  transformPositionX: 1
+  transformPositionY: 1
+  rootMotionScaleX: 1
+  rootMotionScaleY: 1
+  rigidBody2D: {fileID: 0}
+  rigidBody: {fileID: 0}
+  mecanimLayerFlags: -1
 --- !u!114 &3137201199223642456
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -522,7 +543,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20e6994c5259c494eb43dc0e28f64d0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _speed: 0.5
+  _speed: 0.2
   _skeleton: {fileID: 4505069823298102710}
 --- !u!114 &-1419099374206084628
 MonoBehaviour:
