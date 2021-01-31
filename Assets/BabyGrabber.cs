@@ -13,6 +13,11 @@ public class BabyGrabber : MonoBehaviour
 
     [SerializeField] Score _score;
 
+    void Start()
+    {
+        _score._score = 0;
+    }
+
     // Update is called once per frame
     public void OnBabyCollision(Collider2D collider)
     {
