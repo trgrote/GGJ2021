@@ -4293,6 +4293,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 2f591499105a89047a30816eab8a9fa4, type: 2}
     - target: {fileID: 1640736605382335355, guid: f673312bf6f06484ca49fdc3f25f0b7b, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 9147690467729244761}
+    - target: {fileID: 1640736605382335355, guid: f673312bf6f06484ca49fdc3f25f0b7b, type: 3}
       propertyPath: _thudEvent
       value: 
       objectReference: {fileID: 11400000, guid: ce98cccf9e8a5455eb154e283b94bb2d, type: 2}
@@ -4309,5 +4313,10 @@ PrefabInstance:
 --- !u!4 &9147690467729244766 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 28271350861566951, guid: f673312bf6f06484ca49fdc3f25f0b7b, type: 3}
+  m_PrefabInstance: {fileID: 9121848250017911225}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &9147690467729244761 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 28271350861566944, guid: f673312bf6f06484ca49fdc3f25f0b7b, type: 3}
   m_PrefabInstance: {fileID: 9121848250017911225}
   m_PrefabAsset: {fileID: 0}

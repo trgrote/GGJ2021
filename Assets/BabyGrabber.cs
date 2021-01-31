@@ -9,12 +9,15 @@ public class BabyGrabber : MonoBehaviour
     [SerializeField] rho.Event _eatEvent;
     [SerializeField] rho.Event _thudEvent;
 
+    [SerializeField] Animator _animator;
+
     // Update is called once per frame
     public void OnBabyCollision(Collider2D collider)
     {
         if (_grabbles.Contains(collider.gameObject))
         {
             Destroy(collider.gameObject);
+            _animator.SetTrigger("Eat");
             _eatEvent.Raise();
         }
     }
