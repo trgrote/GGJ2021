@@ -11,4 +11,9 @@ public class CameraStateChanger : MonoBehaviour
     {
         _animator.SetTrigger("StateChange_Falling");
     }
+
+    public void OnStateChange_Gamemode()
+    {
+        _animator.SetTrigger("StateChange_Gamemode");
+    }
 }
