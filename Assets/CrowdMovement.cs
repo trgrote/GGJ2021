@@ -8,6 +8,8 @@ public class CrowdMovement : MonoBehaviour
     [SerializeField] float _speed;
     [SerializeField] Spine.Unity.SkeletonMecanim _skeleton;
 
+    public Vector2 Direction {get => _direction;}
+
     void FixedUpdate()
     {
         transform.Translate(_direction * _speed);
