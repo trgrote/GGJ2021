@@ -19,12 +19,13 @@ public class MenuInputHandler : MonoBehaviour
     enum Trigger
     {
         Menu_Start,
-        Gamemode_Start
+        Menu_StartGame
     }
 
     Stateless.StateMachine<State, Trigger> _state = new StateMachine<State, Trigger>(State.Start);
 
     [SerializeField] rho.Event _fallingEvent;
+    [SerializeField] rho.Event _gameModeStartEvent;
 
     void Start()
     {
@@ -34,7 +35,12 @@ public class MenuInputHandler : MonoBehaviour
         _state.Configure(State.Falling)
             .Ignore(Trigger.Menu_Start)
             .OnEntry(t => _fallingEvent.Raise())
-            .Permit(Trigger.Gamemode_Start, State.Gamemode);
+            .Permit(Trigger.Menu_StartGame, State.Gamemode);
+
+        _state.Configure(State.Gamemode)
+            .Ignore(Trigger.Menu_Start)
+            .Ignore(Trigger.Menu_StartGame)
+            .OnEntry(t => _gameModeStartEvent.Raise());
     }
 
     public void OnMenu_Start()
@@ -42,8 +48,8 @@ public class MenuInputHandler : MonoBehaviour
         _state.Fire(Trigger.Menu_Start);
     }
 
-    public void OnGamemode_Start()
+    public void OnMenu_StartGame()
     {
-        _state.Fire(Trigger.Gamemode_Start);
+        _state.Fire(Trigger.Menu_StartGame);
     }
 }

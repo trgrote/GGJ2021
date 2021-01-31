@@ -1142,6 +1142,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ed734f5b431e85e49a02f76490089fdd, type: 3}
+--- !u!114 &665747447 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7502758665067487760, guid: b4619461bce287d43be11afec170e705, type: 3}
+  m_PrefabInstance: {fileID: 7502758664651141609}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb0224c534fa3904fb75177d6ee0a52b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &676145126
 GameObject:
   m_ObjectHideFlags: 0
@@ -4384,6 +4395,54 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7502758665067487760, guid: b4619461bce287d43be11afec170e705, type: 3}
+      propertyPath: _gameModeStartEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: ac54482a28507ee468832f95a571498a, type: 2}
+    - target: {fileID: 7502758665067487761, guid: b4619461bce287d43be11afec170e705, type: 3}
+      propertyPath: m_DefaultActionMap
+      value: Menu
+      objectReference: {fileID: 0}
+    - target: {fileID: 7502758665067487761, guid: b4619461bce287d43be11afec170e705, type: 3}
+      propertyPath: m_ActionEvents.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7502758665067487761, guid: b4619461bce287d43be11afec170e705, type: 3}
+      propertyPath: m_ActionEvents.Array.data[2].m_ActionId
+      value: d6e135f5-4a11-49a3-af9e-3bc294a3c894
+      objectReference: {fileID: 0}
+    - target: {fileID: 7502758665067487761, guid: b4619461bce287d43be11afec170e705, type: 3}
+      propertyPath: m_ActionEvents.Array.data[2].m_ActionName
+      value: Menu/StartGame[/Keyboard/space,/XInputControllerWindows/start]
+      objectReference: {fileID: 0}
+    - target: {fileID: 7502758665067487761, guid: b4619461bce287d43be11afec170e705, type: 3}
+      propertyPath: m_ActionEvents.Array.data[2].m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7502758665067487761, guid: b4619461bce287d43be11afec170e705, type: 3}
+      propertyPath: m_ActionEvents.Array.data[2].m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7502758665067487761, guid: b4619461bce287d43be11afec170e705, type: 3}
+      propertyPath: m_ActionEvents.Array.data[2].m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 665747447}
+    - target: {fileID: 7502758665067487761, guid: b4619461bce287d43be11afec170e705, type: 3}
+      propertyPath: m_ActionEvents.Array.data[2].m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7502758665067487761, guid: b4619461bce287d43be11afec170e705, type: 3}
+      propertyPath: m_ActionEvents.Array.data[2].m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnMenu_StartGame
+      objectReference: {fileID: 0}
+    - target: {fileID: 7502758665067487761, guid: b4619461bce287d43be11afec170e705, type: 3}
+      propertyPath: m_ActionEvents.Array.data[2].m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: MenuInputHandler, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7502758665067487761, guid: b4619461bce287d43be11afec170e705, type: 3}
+      propertyPath: m_ActionEvents.Array.data[2].m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 7502758665067487763, guid: b4619461bce287d43be11afec170e705, type: 3}
       propertyPath: m_RootOrder
       value: 6
