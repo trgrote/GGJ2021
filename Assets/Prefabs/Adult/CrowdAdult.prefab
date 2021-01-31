@@ -225,6 +225,7 @@ GameObject:
   - component: {fileID: 2494573075566251499}
   - component: {fileID: 2494573075566251510}
   - component: {fileID: 6243888986259848077}
+  - component: {fileID: 7046912044173142720}
   m_Layer: 0
   m_Name: CrowdAdult
   m_TagString: Untagged
@@ -390,6 +391,20 @@ MonoBehaviour:
   flipBy180DegreeRotation: 0
   skeletonRenderer: {fileID: 2494573075566251499}
   skeletonGraphic: {fileID: 0}
+--- !u!114 &7046912044173142720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2494573075566251496}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20e6994c5259c494eb43dc0e28f64d0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _speed: 1
+  _skeleton: {fileID: 2494573075566251499}
 --- !u!1 &3596264303232101017
 GameObject:
   m_ObjectHideFlags: 0
