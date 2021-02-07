@@ -19,7 +19,6 @@ public class AnchorMovement : MonoBehaviour
     void Start()
     {
         _rigidBody2d = GetComponent<Rigidbody2D>();
-        Debug.Log(_minValues);
     }
 
     void FixedUpdate()
