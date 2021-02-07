@@ -24,9 +24,12 @@ public class BabyGrabber : MonoBehaviour
 
     BabyState _state = BabyState.Grabbing;
 
+    List<GameObject> _alreadyGrabbed = new List<GameObject>();
+
     void Start()
     {
         _score._score = 0;
+        _alreadyGrabbed.Clear();
     }
 
     #region Prop Holding
@@ -110,12 +113,14 @@ public class BabyGrabber : MonoBehaviour
             return;
         }
 
-        if (_grabbles.Contains(collider.gameObject))
+        if (_grabbles.Contains(collider.gameObject) && !_alreadyGrabbed.Contains(collider.gameObject))
         {
             _state = BabyState.Eating;
             // Destroy(collider.gameObject);
             _animator.SetTrigger("Eat");
             _eatEvent.Raise();
+
+            _alreadyGrabbed.Add(collider.gameObject);
             
             // Move the object to be MY son now
             HoldOnToProp(collider.gameObject);
