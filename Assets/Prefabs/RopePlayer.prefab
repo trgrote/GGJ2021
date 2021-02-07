@@ -12,8 +12,6 @@ GameObject:
   - component: {fileID: 9056156386876703109}
   - component: {fileID: 8131819763681437095}
   - component: {fileID: 3888437160937343020}
-  - component: {fileID: 6725093173229016076}
-  - component: {fileID: 2794713871668458920}
   - component: {fileID: 7973873504830734937}
   m_Layer: 0
   m_Name: Rope (13)
@@ -123,7 +121,7 @@ HingeJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 1.64}
-  m_ConnectedAnchor: {x: 0, y: -1.553332}
+  m_ConnectedAnchor: {x: 0, y: -1.5533303}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -132,68 +130,6 @@ HingeJoint2D:
   m_AngleLimits:
     m_LowerAngle: 0
     m_UpperAngle: 359
---- !u!114 &6725093173229016076
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2575485151010141613}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6b2ae4667f100914f927a47b6af4e390, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &2794713871668458920
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2575485151010141613}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Actions: {fileID: -944628639613478452, guid: 7b31ba35fdf0e4e409ac9fd184964e27, type: 3}
-  m_NotificationBehavior: 2
-  m_UIInputModule: {fileID: 0}
-  m_DeviceLostEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_DeviceRegainedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_ControlsChangedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_ActionEvents:
-  - m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 6725093173229016076}
-        m_TargetAssemblyTypeName: AnchorMovement, Assembly-CSharp
-        m_MethodName: OnMove
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_ActionId: 2b2ed9fb-1309-4915-8cca-a15b505d53f0
-    m_ActionName: Gamemode/Move[/Keyboard/w,/Keyboard/s,/Keyboard/a,/Keyboard/d,/Keyboard/upArrow,/Keyboard/downArrow,/Keyboard/leftArrow,/Keyboard/rightArrow,/XInputControllerWindows/leftStick]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 6731079c-9983-4695-8263-775fc79b21bc
-    m_ActionName: Menu/Start[/Keyboard/anyKey,/XInputControllerWindows/start]
-  m_NeverAutoSwitchControlSchemes: 0
-  m_DefaultControlScheme: 
-  m_DefaultActionMap: Gamemode
-  m_SplitScreenIndex: -1
-  m_Camera: {fileID: 0}
 --- !u!61 &7973873504830734937
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -232,8 +168,6 @@ GameObject:
   - component: {fileID: 4740549689465096206}
   - component: {fileID: 3755482410035510099}
   - component: {fileID: 5594847892872737414}
-  - component: {fileID: 5648745710741337271}
-  - component: {fileID: 4743950193024757422}
   - component: {fileID: 750320143089085383}
   m_Layer: 0
   m_Name: Rope (16)
@@ -343,7 +277,7 @@ HingeJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 1.64}
-  m_ConnectedAnchor: {x: 0, y: -1.5133284}
+  m_ConnectedAnchor: {x: 0, y: -1.513334}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -352,68 +286,6 @@ HingeJoint2D:
   m_AngleLimits:
     m_LowerAngle: 0
     m_UpperAngle: 359
---- !u!114 &5648745710741337271
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2804769688162029363}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6b2ae4667f100914f927a47b6af4e390, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &4743950193024757422
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2804769688162029363}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Actions: {fileID: -944628639613478452, guid: 7b31ba35fdf0e4e409ac9fd184964e27, type: 3}
-  m_NotificationBehavior: 2
-  m_UIInputModule: {fileID: 0}
-  m_DeviceLostEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_DeviceRegainedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_ControlsChangedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_ActionEvents:
-  - m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 5648745710741337271}
-        m_TargetAssemblyTypeName: AnchorMovement, Assembly-CSharp
-        m_MethodName: OnMove
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_ActionId: 2b2ed9fb-1309-4915-8cca-a15b505d53f0
-    m_ActionName: Gamemode/Move[/Keyboard/w,/Keyboard/s,/Keyboard/a,/Keyboard/d,/Keyboard/upArrow,/Keyboard/downArrow,/Keyboard/leftArrow,/Keyboard/rightArrow,/XInputControllerWindows/leftStick]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 6731079c-9983-4695-8263-775fc79b21bc
-    m_ActionName: Menu/Start[/Keyboard/anyKey,/XInputControllerWindows/start]
-  m_NeverAutoSwitchControlSchemes: 0
-  m_DefaultControlScheme: 
-  m_DefaultActionMap: Gamemode
-  m_SplitScreenIndex: -1
-  m_Camera: {fileID: 0}
 --- !u!61 &750320143089085383
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -452,8 +324,6 @@ GameObject:
   - component: {fileID: 1113516556103783772}
   - component: {fileID: 1169137798814748184}
   - component: {fileID: 1767089783955832690}
-  - component: {fileID: 1614810950824906714}
-  - component: {fileID: 4057975629370157058}
   - component: {fileID: 7405562677382242713}
   m_Layer: 0
   m_Name: Rope (15)
@@ -563,7 +433,7 @@ HingeJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 1.64}
-  m_ConnectedAnchor: {x: 0, y: -1.5266672}
+  m_ConnectedAnchor: {x: 0, y: -1.5266656}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -572,68 +442,6 @@ HingeJoint2D:
   m_AngleLimits:
     m_LowerAngle: 0
     m_UpperAngle: 359
---- !u!114 &1614810950824906714
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3568433424297281867}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6b2ae4667f100914f927a47b6af4e390, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &4057975629370157058
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3568433424297281867}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Actions: {fileID: -944628639613478452, guid: 7b31ba35fdf0e4e409ac9fd184964e27, type: 3}
-  m_NotificationBehavior: 2
-  m_UIInputModule: {fileID: 0}
-  m_DeviceLostEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_DeviceRegainedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_ControlsChangedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_ActionEvents:
-  - m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1614810950824906714}
-        m_TargetAssemblyTypeName: AnchorMovement, Assembly-CSharp
-        m_MethodName: OnMove
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_ActionId: 2b2ed9fb-1309-4915-8cca-a15b505d53f0
-    m_ActionName: Gamemode/Move[/Keyboard/w,/Keyboard/s,/Keyboard/a,/Keyboard/d,/Keyboard/upArrow,/Keyboard/downArrow,/Keyboard/leftArrow,/Keyboard/rightArrow,/XInputControllerWindows/leftStick]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 6731079c-9983-4695-8263-775fc79b21bc
-    m_ActionName: Menu/Start[/Keyboard/anyKey,/XInputControllerWindows/start]
-  m_NeverAutoSwitchControlSchemes: 0
-  m_DefaultControlScheme: 
-  m_DefaultActionMap: Gamemode
-  m_SplitScreenIndex: -1
-  m_Camera: {fileID: 0}
 --- !u!61 &7405562677382242713
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -672,8 +480,6 @@ GameObject:
   - component: {fileID: 2218025493307286024}
   - component: {fileID: 608786945296279093}
   - component: {fileID: 883283217388501450}
-  - component: {fileID: 1596832292514327676}
-  - component: {fileID: 7315261415647444268}
   - component: {fileID: 4038315380247310976}
   m_Layer: 0
   m_Name: Rope (14)
@@ -783,7 +589,7 @@ HingeJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 1.64}
-  m_ConnectedAnchor: {x: 0, y: -1.5999984}
+  m_ConnectedAnchor: {x: 0, y: -1.6}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -792,68 +598,6 @@ HingeJoint2D:
   m_AngleLimits:
     m_LowerAngle: 0
     m_UpperAngle: 359
---- !u!114 &1596832292514327676
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4732983927253358067}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6b2ae4667f100914f927a47b6af4e390, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &7315261415647444268
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4732983927253358067}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Actions: {fileID: -944628639613478452, guid: 7b31ba35fdf0e4e409ac9fd184964e27, type: 3}
-  m_NotificationBehavior: 2
-  m_UIInputModule: {fileID: 0}
-  m_DeviceLostEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_DeviceRegainedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_ControlsChangedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_ActionEvents:
-  - m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1596832292514327676}
-        m_TargetAssemblyTypeName: AnchorMovement, Assembly-CSharp
-        m_MethodName: OnMove
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_ActionId: 2b2ed9fb-1309-4915-8cca-a15b505d53f0
-    m_ActionName: Gamemode/Move[/Keyboard/w,/Keyboard/s,/Keyboard/a,/Keyboard/d,/Keyboard/upArrow,/Keyboard/downArrow,/Keyboard/leftArrow,/Keyboard/rightArrow,/XInputControllerWindows/leftStick]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 6731079c-9983-4695-8263-775fc79b21bc
-    m_ActionName: Menu/Start[/Keyboard/anyKey,/XInputControllerWindows/start]
-  m_NeverAutoSwitchControlSchemes: 0
-  m_DefaultControlScheme: 
-  m_DefaultActionMap: Gamemode
-  m_SplitScreenIndex: -1
-  m_Camera: {fileID: 0}
 --- !u!61 &4038315380247310976
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -892,8 +636,6 @@ GameObject:
   - component: {fileID: 3861770490386406125}
   - component: {fileID: 7166153819331425105}
   - component: {fileID: 5479985605216287873}
-  - component: {fileID: 6086254191696822868}
-  - component: {fileID: 5691130703203633106}
   - component: {fileID: 6876274035661690774}
   m_Layer: 0
   m_Name: Rope (11)
@@ -1003,7 +745,7 @@ HingeJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 1.64}
-  m_ConnectedAnchor: {x: 0, y: -1.5866597}
+  m_ConnectedAnchor: {x: 0, y: -1.5866677}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -1012,68 +754,6 @@ HingeJoint2D:
   m_AngleLimits:
     m_LowerAngle: 0
     m_UpperAngle: 359
---- !u!114 &6086254191696822868
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5293732511198144468}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6b2ae4667f100914f927a47b6af4e390, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &5691130703203633106
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5293732511198144468}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Actions: {fileID: -944628639613478452, guid: 7b31ba35fdf0e4e409ac9fd184964e27, type: 3}
-  m_NotificationBehavior: 2
-  m_UIInputModule: {fileID: 0}
-  m_DeviceLostEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_DeviceRegainedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_ControlsChangedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_ActionEvents:
-  - m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 6086254191696822868}
-        m_TargetAssemblyTypeName: AnchorMovement, Assembly-CSharp
-        m_MethodName: OnMove
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_ActionId: 2b2ed9fb-1309-4915-8cca-a15b505d53f0
-    m_ActionName: Gamemode/Move[/Keyboard/w,/Keyboard/s,/Keyboard/a,/Keyboard/d,/Keyboard/upArrow,/Keyboard/downArrow,/Keyboard/leftArrow,/Keyboard/rightArrow,/XInputControllerWindows/leftStick]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 6731079c-9983-4695-8263-775fc79b21bc
-    m_ActionName: Menu/Start[/Keyboard/anyKey,/XInputControllerWindows/start]
-  m_NeverAutoSwitchControlSchemes: 0
-  m_DefaultControlScheme: 
-  m_DefaultActionMap: Gamemode
-  m_SplitScreenIndex: -1
-  m_Camera: {fileID: 0}
 --- !u!61 &6876274035661690774
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1112,8 +792,6 @@ GameObject:
   - component: {fileID: 8771873328800802079}
   - component: {fileID: 3899508976470680118}
   - component: {fileID: 5351431412846232334}
-  - component: {fileID: 748288350309273058}
-  - component: {fileID: 6288679756981735550}
   - component: {fileID: 1499669755011299988}
   m_Layer: 0
   m_Name: Rope (12)
@@ -1223,7 +901,7 @@ HingeJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 1.64}
-  m_ConnectedAnchor: {x: 0, y: -1.553332}
+  m_ConnectedAnchor: {x: 0, y: -1.5533335}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -1232,68 +910,6 @@ HingeJoint2D:
   m_AngleLimits:
     m_LowerAngle: 0
     m_UpperAngle: 359
---- !u!114 &748288350309273058
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6855265474390999217}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6b2ae4667f100914f927a47b6af4e390, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &6288679756981735550
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6855265474390999217}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Actions: {fileID: -944628639613478452, guid: 7b31ba35fdf0e4e409ac9fd184964e27, type: 3}
-  m_NotificationBehavior: 2
-  m_UIInputModule: {fileID: 0}
-  m_DeviceLostEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_DeviceRegainedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_ControlsChangedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_ActionEvents:
-  - m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 748288350309273058}
-        m_TargetAssemblyTypeName: AnchorMovement, Assembly-CSharp
-        m_MethodName: OnMove
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_ActionId: 2b2ed9fb-1309-4915-8cca-a15b505d53f0
-    m_ActionName: Gamemode/Move[/Keyboard/w,/Keyboard/s,/Keyboard/a,/Keyboard/d,/Keyboard/upArrow,/Keyboard/downArrow,/Keyboard/leftArrow,/Keyboard/rightArrow,/XInputControllerWindows/leftStick]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 6731079c-9983-4695-8263-775fc79b21bc
-    m_ActionName: Menu/Start[/Keyboard/anyKey,/XInputControllerWindows/start]
-  m_NeverAutoSwitchControlSchemes: 0
-  m_DefaultControlScheme: 
-  m_DefaultActionMap: Gamemode
-  m_SplitScreenIndex: -1
-  m_Camera: {fileID: 0}
 --- !u!61 &1499669755011299988
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1332,8 +948,6 @@ GameObject:
   - component: {fileID: 8955876629331908151}
   - component: {fileID: 2979088887642032870}
   - component: {fileID: 512844188360798056}
-  - component: {fileID: 8021573174765854203}
-  - component: {fileID: 983202208399692480}
   - component: {fileID: 8932503377619762622}
   m_Layer: 0
   m_Name: Rope (17)
@@ -1443,7 +1057,7 @@ HingeJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 1.64}
-  m_ConnectedAnchor: {x: 0, y: -1.5399932}
+  m_ConnectedAnchor: {x: 0, y: -1.54}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -1452,68 +1066,6 @@ HingeJoint2D:
   m_AngleLimits:
     m_LowerAngle: 0
     m_UpperAngle: 359
---- !u!114 &8021573174765854203
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8698440297187167482}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6b2ae4667f100914f927a47b6af4e390, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &983202208399692480
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8698440297187167482}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Actions: {fileID: -944628639613478452, guid: 7b31ba35fdf0e4e409ac9fd184964e27, type: 3}
-  m_NotificationBehavior: 2
-  m_UIInputModule: {fileID: 0}
-  m_DeviceLostEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_DeviceRegainedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_ControlsChangedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_ActionEvents:
-  - m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 8021573174765854203}
-        m_TargetAssemblyTypeName: AnchorMovement, Assembly-CSharp
-        m_MethodName: OnMove
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_ActionId: 2b2ed9fb-1309-4915-8cca-a15b505d53f0
-    m_ActionName: Gamemode/Move[/Keyboard/w,/Keyboard/s,/Keyboard/a,/Keyboard/d,/Keyboard/upArrow,/Keyboard/downArrow,/Keyboard/leftArrow,/Keyboard/rightArrow,/XInputControllerWindows/leftStick]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 6731079c-9983-4695-8263-775fc79b21bc
-    m_ActionName: Menu/Start[/Keyboard/anyKey,/XInputControllerWindows/start]
-  m_NeverAutoSwitchControlSchemes: 0
-  m_DefaultControlScheme: 
-  m_DefaultActionMap: Gamemode
-  m_SplitScreenIndex: -1
-  m_Camera: {fileID: 0}
 --- !u!61 &8932503377619762622
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1552,8 +1104,6 @@ GameObject:
   - component: {fileID: 9121848248632798026}
   - component: {fileID: 9121848248632798017}
   - component: {fileID: 9121848248632798021}
-  - component: {fileID: 9121848248632798020}
-  - component: {fileID: 9121848248632798023}
   - component: {fileID: 9121848248632798022}
   m_Layer: 0
   m_Name: Rope (8)
@@ -1663,7 +1213,7 @@ HingeJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 1.64}
-  m_ConnectedAnchor: {x: 0, y: -1.6266886}
+  m_ConnectedAnchor: {x: 0, y: -1.6266726}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -1672,68 +1222,6 @@ HingeJoint2D:
   m_AngleLimits:
     m_LowerAngle: 0
     m_UpperAngle: 359
---- !u!114 &9121848248632798020
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9121848248632798016}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6b2ae4667f100914f927a47b6af4e390, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &9121848248632798023
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9121848248632798016}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Actions: {fileID: -944628639613478452, guid: 7b31ba35fdf0e4e409ac9fd184964e27, type: 3}
-  m_NotificationBehavior: 2
-  m_UIInputModule: {fileID: 0}
-  m_DeviceLostEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_DeviceRegainedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_ControlsChangedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_ActionEvents:
-  - m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 9121848248632798020}
-        m_TargetAssemblyTypeName: AnchorMovement, Assembly-CSharp
-        m_MethodName: OnMove
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_ActionId: 2b2ed9fb-1309-4915-8cca-a15b505d53f0
-    m_ActionName: Gamemode/Move[/Keyboard/w,/Keyboard/s,/Keyboard/a,/Keyboard/d,/Keyboard/upArrow,/Keyboard/downArrow,/Keyboard/leftArrow,/Keyboard/rightArrow,/XInputControllerWindows/leftStick]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 6731079c-9983-4695-8263-775fc79b21bc
-    m_ActionName: Menu/Start[/Keyboard/anyKey,/XInputControllerWindows/start]
-  m_NeverAutoSwitchControlSchemes: 0
-  m_DefaultControlScheme: 
-  m_DefaultActionMap: Gamemode
-  m_SplitScreenIndex: -1
-  m_Camera: {fileID: 0}
 --- !u!61 &9121848248632798022
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1772,8 +1260,6 @@ GameObject:
   - component: {fileID: 9121848248933376870}
   - component: {fileID: 9121848248933376861}
   - component: {fileID: 9121848248933376865}
-  - component: {fileID: 9121848248933376864}
-  - component: {fileID: 9121848248933376867}
   - component: {fileID: 9121848248933376866}
   m_Layer: 0
   m_Name: Rope (7)
@@ -1883,7 +1369,7 @@ HingeJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 1.64}
-  m_ConnectedAnchor: {x: 0, y: -1.4933268}
+  m_ConnectedAnchor: {x: 0, y: -1.49333}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -1892,68 +1378,6 @@ HingeJoint2D:
   m_AngleLimits:
     m_LowerAngle: 0
     m_UpperAngle: 359
---- !u!114 &9121848248933376864
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9121848248933376860}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6b2ae4667f100914f927a47b6af4e390, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &9121848248933376867
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9121848248933376860}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Actions: {fileID: -944628639613478452, guid: 7b31ba35fdf0e4e409ac9fd184964e27, type: 3}
-  m_NotificationBehavior: 2
-  m_UIInputModule: {fileID: 0}
-  m_DeviceLostEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_DeviceRegainedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_ControlsChangedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_ActionEvents:
-  - m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 9121848248933376864}
-        m_TargetAssemblyTypeName: AnchorMovement, Assembly-CSharp
-        m_MethodName: OnMove
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_ActionId: 2b2ed9fb-1309-4915-8cca-a15b505d53f0
-    m_ActionName: Gamemode/Move[/Keyboard/w,/Keyboard/s,/Keyboard/a,/Keyboard/d,/Keyboard/upArrow,/Keyboard/downArrow,/Keyboard/leftArrow,/Keyboard/rightArrow,/XInputControllerWindows/leftStick]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 6731079c-9983-4695-8263-775fc79b21bc
-    m_ActionName: Menu/Start[/Keyboard/anyKey,/XInputControllerWindows/start]
-  m_NeverAutoSwitchControlSchemes: 0
-  m_DefaultControlScheme: 
-  m_DefaultActionMap: Gamemode
-  m_SplitScreenIndex: -1
-  m_Camera: {fileID: 0}
 --- !u!61 &9121848248933376866
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2042,8 +1466,6 @@ GameObject:
   - component: {fileID: 9121848249220740578}
   - component: {fileID: 9121848249220740569}
   - component: {fileID: 9121848249220740573}
-  - component: {fileID: 9121848249220740572}
-  - component: {fileID: 9121848249220740575}
   - component: {fileID: 9121848249220740574}
   m_Layer: 0
   m_Name: Rope (5)
@@ -2153,7 +1575,7 @@ HingeJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 1.64}
-  m_ConnectedAnchor: {x: 0, y: -1.5400187}
+  m_ConnectedAnchor: {x: 0, y: -1.5400027}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -2162,68 +1584,6 @@ HingeJoint2D:
   m_AngleLimits:
     m_LowerAngle: 0
     m_UpperAngle: 359
---- !u!114 &9121848249220740572
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9121848249220740568}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6b2ae4667f100914f927a47b6af4e390, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &9121848249220740575
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9121848249220740568}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Actions: {fileID: -944628639613478452, guid: 7b31ba35fdf0e4e409ac9fd184964e27, type: 3}
-  m_NotificationBehavior: 2
-  m_UIInputModule: {fileID: 0}
-  m_DeviceLostEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_DeviceRegainedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_ControlsChangedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_ActionEvents:
-  - m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 9121848249220740572}
-        m_TargetAssemblyTypeName: AnchorMovement, Assembly-CSharp
-        m_MethodName: OnMove
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_ActionId: 2b2ed9fb-1309-4915-8cca-a15b505d53f0
-    m_ActionName: Gamemode/Move[/Keyboard/w,/Keyboard/s,/Keyboard/a,/Keyboard/d,/Keyboard/upArrow,/Keyboard/downArrow,/Keyboard/leftArrow,/Keyboard/rightArrow,/XInputControllerWindows/leftStick]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 6731079c-9983-4695-8263-775fc79b21bc
-    m_ActionName: Menu/Start[/Keyboard/anyKey,/XInputControllerWindows/start]
-  m_NeverAutoSwitchControlSchemes: 0
-  m_DefaultControlScheme: 
-  m_DefaultActionMap: Gamemode
-  m_SplitScreenIndex: -1
-  m_Camera: {fileID: 0}
 --- !u!61 &9121848249220740574
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2262,8 +1622,6 @@ GameObject:
   - component: {fileID: 9121848249702055845}
   - component: {fileID: 9121848249702055840}
   - component: {fileID: 9121848249702055844}
-  - component: {fileID: 9121848249702055847}
-  - component: {fileID: 9121848249702055846}
   - component: {fileID: 9121848249702055841}
   m_Layer: 0
   m_Name: Rope (1)
@@ -2373,7 +1731,7 @@ HingeJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 1.64}
-  m_ConnectedAnchor: {x: 0, y: -1.5533446}
+  m_ConnectedAnchor: {x: 0, y: -1.553332}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -2382,68 +1740,6 @@ HingeJoint2D:
   m_AngleLimits:
     m_LowerAngle: 0
     m_UpperAngle: 359
---- !u!114 &9121848249702055847
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9121848249702055843}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6b2ae4667f100914f927a47b6af4e390, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &9121848249702055846
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9121848249702055843}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Actions: {fileID: -944628639613478452, guid: 7b31ba35fdf0e4e409ac9fd184964e27, type: 3}
-  m_NotificationBehavior: 2
-  m_UIInputModule: {fileID: 0}
-  m_DeviceLostEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_DeviceRegainedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_ControlsChangedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_ActionEvents:
-  - m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 9121848249702055847}
-        m_TargetAssemblyTypeName: AnchorMovement, Assembly-CSharp
-        m_MethodName: OnMove
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_ActionId: 2b2ed9fb-1309-4915-8cca-a15b505d53f0
-    m_ActionName: Gamemode/Move[/Keyboard/w,/Keyboard/s,/Keyboard/a,/Keyboard/d,/Keyboard/upArrow,/Keyboard/downArrow,/Keyboard/leftArrow,/Keyboard/rightArrow,/XInputControllerWindows/leftStick]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 6731079c-9983-4695-8263-775fc79b21bc
-    m_ActionName: Menu/Start[/Keyboard/anyKey,/XInputControllerWindows/start]
-  m_NeverAutoSwitchControlSchemes: 0
-  m_DefaultControlScheme: 
-  m_DefaultActionMap: Gamemode
-  m_SplitScreenIndex: -1
-  m_Camera: {fileID: 0}
 --- !u!61 &9121848249702055841
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2482,8 +1778,6 @@ GameObject:
   - component: {fileID: 9121848249751938384}
   - component: {fileID: 9121848249751938383}
   - component: {fileID: 9121848249751938387}
-  - component: {fileID: 9121848249751938386}
-  - component: {fileID: 9121848249751938381}
   - component: {fileID: 9121848249751938380}
   m_Layer: 0
   m_Name: Rope (10)
@@ -2593,7 +1887,7 @@ HingeJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 1.64}
-  m_ConnectedAnchor: {x: 0, y: -1.5600077}
+  m_ConnectedAnchor: {x: 0, y: -1.5599982}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -2602,68 +1896,6 @@ HingeJoint2D:
   m_AngleLimits:
     m_LowerAngle: 0
     m_UpperAngle: 359
---- !u!114 &9121848249751938386
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9121848249751938382}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6b2ae4667f100914f927a47b6af4e390, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &9121848249751938381
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9121848249751938382}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Actions: {fileID: -944628639613478452, guid: 7b31ba35fdf0e4e409ac9fd184964e27, type: 3}
-  m_NotificationBehavior: 2
-  m_UIInputModule: {fileID: 0}
-  m_DeviceLostEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_DeviceRegainedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_ControlsChangedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_ActionEvents:
-  - m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 9121848249751938386}
-        m_TargetAssemblyTypeName: AnchorMovement, Assembly-CSharp
-        m_MethodName: OnMove
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_ActionId: 2b2ed9fb-1309-4915-8cca-a15b505d53f0
-    m_ActionName: Gamemode/Move[/Keyboard/w,/Keyboard/s,/Keyboard/a,/Keyboard/d,/Keyboard/upArrow,/Keyboard/downArrow,/Keyboard/leftArrow,/Keyboard/rightArrow,/XInputControllerWindows/leftStick]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 6731079c-9983-4695-8263-775fc79b21bc
-    m_ActionName: Menu/Start[/Keyboard/anyKey,/XInputControllerWindows/start]
-  m_NeverAutoSwitchControlSchemes: 0
-  m_DefaultControlScheme: 
-  m_DefaultActionMap: Gamemode
-  m_SplitScreenIndex: -1
-  m_Camera: {fileID: 0}
 --- !u!61 &9121848249751938380
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2702,8 +1934,6 @@ GameObject:
   - component: {fileID: 9121848249754647762}
   - component: {fileID: 9121848249754647753}
   - component: {fileID: 9121848249754647757}
-  - component: {fileID: 9121848249754647756}
-  - component: {fileID: 9121848249754647759}
   - component: {fileID: 9121848249754647758}
   m_Layer: 0
   m_Name: Rope (9)
@@ -2813,7 +2043,7 @@ HingeJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 1.64}
-  m_ConnectedAnchor: {x: 0, y: -1.4933522}
+  m_ConnectedAnchor: {x: 0, y: -1.4933363}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -2822,68 +2052,6 @@ HingeJoint2D:
   m_AngleLimits:
     m_LowerAngle: 0
     m_UpperAngle: 359
---- !u!114 &9121848249754647756
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9121848249754647752}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6b2ae4667f100914f927a47b6af4e390, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &9121848249754647759
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9121848249754647752}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Actions: {fileID: -944628639613478452, guid: 7b31ba35fdf0e4e409ac9fd184964e27, type: 3}
-  m_NotificationBehavior: 2
-  m_UIInputModule: {fileID: 0}
-  m_DeviceLostEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_DeviceRegainedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_ControlsChangedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_ActionEvents:
-  - m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 9121848249754647756}
-        m_TargetAssemblyTypeName: AnchorMovement, Assembly-CSharp
-        m_MethodName: OnMove
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_ActionId: 2b2ed9fb-1309-4915-8cca-a15b505d53f0
-    m_ActionName: Gamemode/Move[/Keyboard/w,/Keyboard/s,/Keyboard/a,/Keyboard/d,/Keyboard/upArrow,/Keyboard/downArrow,/Keyboard/leftArrow,/Keyboard/rightArrow,/XInputControllerWindows/leftStick]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 6731079c-9983-4695-8263-775fc79b21bc
-    m_ActionName: Menu/Start[/Keyboard/anyKey,/XInputControllerWindows/start]
-  m_NeverAutoSwitchControlSchemes: 0
-  m_DefaultControlScheme: 
-  m_DefaultActionMap: Gamemode
-  m_SplitScreenIndex: -1
-  m_Camera: {fileID: 0}
 --- !u!61 &9121848249754647758
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2922,8 +2090,6 @@ GameObject:
   - component: {fileID: 9121848249941580341}
   - component: {fileID: 9121848249941580336}
   - component: {fileID: 9121848249941580340}
-  - component: {fileID: 9121848249941580343}
-  - component: {fileID: 9121848249941580342}
   - component: {fileID: 9121848249941580337}
   m_Layer: 0
   m_Name: Rope (2)
@@ -3033,7 +2199,7 @@ HingeJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 1.64}
-  m_ConnectedAnchor: {x: 0, y: -1.4800007}
+  m_ConnectedAnchor: {x: 0, y: -1.4799976}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -3042,68 +2208,6 @@ HingeJoint2D:
   m_AngleLimits:
     m_LowerAngle: 0
     m_UpperAngle: 359
---- !u!114 &9121848249941580343
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9121848249941580339}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6b2ae4667f100914f927a47b6af4e390, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &9121848249941580342
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9121848249941580339}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Actions: {fileID: -944628639613478452, guid: 7b31ba35fdf0e4e409ac9fd184964e27, type: 3}
-  m_NotificationBehavior: 2
-  m_UIInputModule: {fileID: 0}
-  m_DeviceLostEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_DeviceRegainedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_ControlsChangedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_ActionEvents:
-  - m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 9121848249941580343}
-        m_TargetAssemblyTypeName: AnchorMovement, Assembly-CSharp
-        m_MethodName: OnMove
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_ActionId: 2b2ed9fb-1309-4915-8cca-a15b505d53f0
-    m_ActionName: Gamemode/Move[/Keyboard/w,/Keyboard/s,/Keyboard/a,/Keyboard/d,/Keyboard/upArrow,/Keyboard/downArrow,/Keyboard/leftArrow,/Keyboard/rightArrow,/XInputControllerWindows/leftStick]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 6731079c-9983-4695-8263-775fc79b21bc
-    m_ActionName: Menu/Start[/Keyboard/anyKey,/XInputControllerWindows/start]
-  m_NeverAutoSwitchControlSchemes: 0
-  m_DefaultControlScheme: 
-  m_DefaultActionMap: Gamemode
-  m_SplitScreenIndex: -1
-  m_Camera: {fileID: 0}
 --- !u!61 &9121848249941580337
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3142,8 +2246,6 @@ GameObject:
   - component: {fileID: 9121848250086602504}
   - component: {fileID: 9121848250086602503}
   - component: {fileID: 9121848250086602507}
-  - component: {fileID: 9121848250086602506}
-  - component: {fileID: 9121848250086602501}
   - component: {fileID: 9121848250086602500}
   m_Layer: 0
   m_Name: Rope
@@ -3253,7 +2355,7 @@ HingeJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 1.64}
-  m_ConnectedAnchor: {x: 0, y: -1.6333516}
+  m_ConnectedAnchor: {x: 0, y: -1.6333325}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -3262,68 +2364,6 @@ HingeJoint2D:
   m_AngleLimits:
     m_LowerAngle: 0
     m_UpperAngle: 359
---- !u!114 &9121848250086602506
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9121848250086602502}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6b2ae4667f100914f927a47b6af4e390, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &9121848250086602501
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9121848250086602502}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Actions: {fileID: -944628639613478452, guid: 7b31ba35fdf0e4e409ac9fd184964e27, type: 3}
-  m_NotificationBehavior: 2
-  m_UIInputModule: {fileID: 0}
-  m_DeviceLostEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_DeviceRegainedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_ControlsChangedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_ActionEvents:
-  - m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 9121848250086602506}
-        m_TargetAssemblyTypeName: AnchorMovement, Assembly-CSharp
-        m_MethodName: OnMove
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_ActionId: 2b2ed9fb-1309-4915-8cca-a15b505d53f0
-    m_ActionName: Gamemode/Move[/Keyboard/w,/Keyboard/s,/Keyboard/a,/Keyboard/d,/Keyboard/upArrow,/Keyboard/downArrow,/Keyboard/leftArrow,/Keyboard/rightArrow,/XInputControllerWindows/leftStick]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 6731079c-9983-4695-8263-775fc79b21bc
-    m_ActionName: Menu/Start[/Keyboard/anyKey,/XInputControllerWindows/start]
-  m_NeverAutoSwitchControlSchemes: 0
-  m_DefaultControlScheme: 
-  m_DefaultActionMap: Gamemode
-  m_SplitScreenIndex: -1
-  m_Camera: {fileID: 0}
 --- !u!61 &9121848250086602500
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3362,8 +2402,6 @@ GameObject:
   - component: {fileID: 9121848250229825618}
   - component: {fileID: 9121848250229825609}
   - component: {fileID: 9121848250229825613}
-  - component: {fileID: 9121848250229825612}
-  - component: {fileID: 9121848250229825615}
   - component: {fileID: 9121848250229825614}
   m_Layer: 0
   m_Name: Rope (6)
@@ -3473,7 +2511,7 @@ HingeJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 1.64}
-  m_ConnectedAnchor: {x: 0, y: -1.5400187}
+  m_ConnectedAnchor: {x: 0, y: -1.5400027}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -3482,68 +2520,6 @@ HingeJoint2D:
   m_AngleLimits:
     m_LowerAngle: 0
     m_UpperAngle: 359
---- !u!114 &9121848250229825612
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9121848250229825608}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6b2ae4667f100914f927a47b6af4e390, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &9121848250229825615
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9121848250229825608}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Actions: {fileID: -944628639613478452, guid: 7b31ba35fdf0e4e409ac9fd184964e27, type: 3}
-  m_NotificationBehavior: 2
-  m_UIInputModule: {fileID: 0}
-  m_DeviceLostEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_DeviceRegainedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_ControlsChangedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_ActionEvents:
-  - m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 9121848250229825612}
-        m_TargetAssemblyTypeName: AnchorMovement, Assembly-CSharp
-        m_MethodName: OnMove
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_ActionId: 2b2ed9fb-1309-4915-8cca-a15b505d53f0
-    m_ActionName: Gamemode/Move[/Keyboard/w,/Keyboard/s,/Keyboard/a,/Keyboard/d,/Keyboard/upArrow,/Keyboard/downArrow,/Keyboard/leftArrow,/Keyboard/rightArrow,/XInputControllerWindows/leftStick]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 6731079c-9983-4695-8263-775fc79b21bc
-    m_ActionName: Menu/Start[/Keyboard/anyKey,/XInputControllerWindows/start]
-  m_NeverAutoSwitchControlSchemes: 0
-  m_DefaultControlScheme: 
-  m_DefaultActionMap: Gamemode
-  m_SplitScreenIndex: -1
-  m_Camera: {fileID: 0}
 --- !u!61 &9121848250229825614
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3582,8 +2558,6 @@ GameObject:
   - component: {fileID: 9121848250290823742}
   - component: {fileID: 9121848250290823733}
   - component: {fileID: 9121848250290823737}
-  - component: {fileID: 9121848250290823736}
-  - component: {fileID: 9121848250290823739}
   - component: {fileID: 9121848250290823738}
   m_Layer: 0
   m_Name: Rope (3)
@@ -3693,7 +2667,7 @@ HingeJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 1.64}
-  m_ConnectedAnchor: {x: 0, y: -1.5533446}
+  m_ConnectedAnchor: {x: 0, y: -1.5533351}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -3702,68 +2676,6 @@ HingeJoint2D:
   m_AngleLimits:
     m_LowerAngle: 0
     m_UpperAngle: 359
---- !u!114 &9121848250290823736
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9121848250290823732}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6b2ae4667f100914f927a47b6af4e390, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &9121848250290823739
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9121848250290823732}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Actions: {fileID: -944628639613478452, guid: 7b31ba35fdf0e4e409ac9fd184964e27, type: 3}
-  m_NotificationBehavior: 2
-  m_UIInputModule: {fileID: 0}
-  m_DeviceLostEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_DeviceRegainedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_ControlsChangedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_ActionEvents:
-  - m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 9121848250290823736}
-        m_TargetAssemblyTypeName: AnchorMovement, Assembly-CSharp
-        m_MethodName: OnMove
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_ActionId: 2b2ed9fb-1309-4915-8cca-a15b505d53f0
-    m_ActionName: Gamemode/Move[/Keyboard/w,/Keyboard/s,/Keyboard/a,/Keyboard/d,/Keyboard/upArrow,/Keyboard/downArrow,/Keyboard/leftArrow,/Keyboard/rightArrow,/XInputControllerWindows/leftStick]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 6731079c-9983-4695-8263-775fc79b21bc
-    m_ActionName: Menu/Start[/Keyboard/anyKey,/XInputControllerWindows/start]
-  m_NeverAutoSwitchControlSchemes: 0
-  m_DefaultControlScheme: 
-  m_DefaultActionMap: Gamemode
-  m_SplitScreenIndex: -1
-  m_Camera: {fileID: 0}
 --- !u!61 &9121848250290823738
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3802,8 +2714,6 @@ GameObject:
   - component: {fileID: 9121848250373600129}
   - component: {fileID: 9121848250373600252}
   - component: {fileID: 9121848250373600128}
-  - component: {fileID: 9121848250373600131}
-  - component: {fileID: 9121848250373600130}
   - component: {fileID: 9121848250373600253}
   m_Layer: 0
   m_Name: Rope (4)
@@ -3913,7 +2823,7 @@ HingeJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 1.64}
-  m_ConnectedAnchor: {x: 0, y: -1.5533446}
+  m_ConnectedAnchor: {x: 0, y: -1.5533351}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -3922,68 +2832,6 @@ HingeJoint2D:
   m_AngleLimits:
     m_LowerAngle: 0
     m_UpperAngle: 359
---- !u!114 &9121848250373600131
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9121848250373600255}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6b2ae4667f100914f927a47b6af4e390, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &9121848250373600130
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9121848250373600255}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Actions: {fileID: -944628639613478452, guid: 7b31ba35fdf0e4e409ac9fd184964e27, type: 3}
-  m_NotificationBehavior: 2
-  m_UIInputModule: {fileID: 0}
-  m_DeviceLostEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_DeviceRegainedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_ControlsChangedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_ActionEvents:
-  - m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 9121848250373600131}
-        m_TargetAssemblyTypeName: AnchorMovement, Assembly-CSharp
-        m_MethodName: OnMove
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_ActionId: 2b2ed9fb-1309-4915-8cca-a15b505d53f0
-    m_ActionName: Gamemode/Move[/Keyboard/w,/Keyboard/s,/Keyboard/a,/Keyboard/d,/Keyboard/upArrow,/Keyboard/downArrow,/Keyboard/leftArrow,/Keyboard/rightArrow,/XInputControllerWindows/leftStick]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 6731079c-9983-4695-8263-775fc79b21bc
-    m_ActionName: Menu/Start[/Keyboard/anyKey,/XInputControllerWindows/start]
-  m_NeverAutoSwitchControlSchemes: 0
-  m_DefaultControlScheme: 
-  m_DefaultActionMap: Gamemode
-  m_SplitScreenIndex: -1
-  m_Camera: {fileID: 0}
 --- !u!61 &9121848250373600253
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4129,6 +2977,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b2ae4667f100914f927a47b6af4e390, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _minValues: {x: 0, y: 0}
+  _maxValues: {x: 0, y: 0}
 --- !u!114 &9121848250394744974
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4174,6 +3024,10 @@ MonoBehaviour:
       m_Calls: []
     m_ActionId: 6731079c-9983-4695-8263-775fc79b21bc
     m_ActionName: Menu/Start[/Keyboard/anyKey,/XInputControllerWindows/start]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: d6e135f5-4a11-49a3-af9e-3bc294a3c894
+    m_ActionName: Menu/StartGame[/Keyboard/space,/XInputControllerWindows/start]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Gamemode
@@ -4290,7 +3144,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9121848248920120006, guid: f673312bf6f06484ca49fdc3f25f0b7b, type: 3}
       propertyPath: m_ConnectedAnchor.y
-      value: -1.70667
+      value: -1.7066665
       objectReference: {fileID: 0}
     - target: {fileID: 9121848248920120006, guid: f673312bf6f06484ca49fdc3f25f0b7b, type: 3}
       propertyPath: m_ConnectedRigidBody
