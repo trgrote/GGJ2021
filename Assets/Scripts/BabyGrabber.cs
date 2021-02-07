@@ -13,20 +13,55 @@ public class BabyGrabber : MonoBehaviour
 
     [SerializeField] Score _score;
 
+    enum BabyState
+    {
+        Grabbing = 0,
+        Eating
+    }
+
+    BabyState _state = BabyState.Grabbing;
+
+    [SerializeField] float _eatingLength = 5f;
+
+    IEnumerator _eatingCoroutine;
+
     void Start()
     {
         _score._score = 0;
     }
 
-    // Update is called once per frame
+    IEnumerator Eat()
+    {
+        yield return new WaitForSeconds(_eatingLength);
+        _score._score++;
+        _state = BabyState.Grabbing;
+        _animator.SetTrigger("ReturnToIdle");
+    }
+
+    void StartEating()
+    {
+        StartCoroutine(_eatingCoroutine = Eat());
+    }
+
+    void StopEating()
+    {
+        StopCoroutine(_eatingCoroutine);
+    }
+
     public void OnBabyCollision(Collider2D collider)
     {
+        if (_state != BabyState.Grabbing)
+        {
+            return;
+        }
+
         if (_grabbles.Contains(collider.gameObject))
         {
+            _state = BabyState.Eating;
             Destroy(collider.gameObject);
             _animator.SetTrigger("Eat");
             _eatEvent.Raise();
-            _score._score++;
+            StartEating();
         }
     }
 
