@@ -55,9 +55,13 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 4505069823298102709, guid: a8096adcd53e84b98bee59a7945022a7, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 47fca1e29686dd04382c57695f28a8fd, type: 2}
     - target: {fileID: 4505069823298102711, guid: a8096adcd53e84b98bee59a7945022a7, type: 3}
       propertyPath: m_Name
-      value: CrowdKid-BG1
+      value: CrowdKid-BG1 Variant
       objectReference: {fileID: 0}
     - target: {fileID: 4505069823298102711, guid: a8096adcd53e84b98bee59a7945022a7, type: 3}
       propertyPath: m_IsActive
