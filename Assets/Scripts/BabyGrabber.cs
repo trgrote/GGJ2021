@@ -93,7 +93,7 @@ public class BabyGrabber : MonoBehaviour
 
     #region Eating Coroutine
 
-    IEnumerator _eatingCoroutine;
+    IEnumerator _eatingCoroutine = null;
 
     IEnumerator Eat()
     {
@@ -127,7 +127,11 @@ public class BabyGrabber : MonoBehaviour
 
     void StopEating()
     {
-        StopCoroutine(_eatingCoroutine);
+        if (_eatingCoroutine != null)
+        {
+            StopCoroutine(_eatingCoroutine);
+            _eatingCoroutine = null;
+        }
     }
 
     #endregion
