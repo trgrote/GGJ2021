@@ -155,7 +155,6 @@ public class BabyGrabber : MonoBehaviour
             // Check type
             if (_poisons.Contains(collider.gameObject))
             {
-                Debug.Log("Poison Grabbed");
                 _poisonGrabbedEvent.Raise();
             }
             
