@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class BabyGrabber : MonoBehaviour
@@ -67,7 +68,10 @@ public class BabyGrabber : MonoBehaviour
             var propRigidBody = _currentProp.GetComponent<Rigidbody2D>();
             if (propRigidBody)
             {
+                // Change the prop to kinematic and turn all colliders to not-triggers
                 propRigidBody.isKinematic = false;
+                // This could be an issue if some thing are SUPPOSED TO ALWAYS BE TRIGGERS, but rn we don't have any props that are like that
+                _currentProp.GetComponents<Collider2D>().ToList().ForEach(c => c.isTrigger = false);
             }
             _currentProp = null;
         }
