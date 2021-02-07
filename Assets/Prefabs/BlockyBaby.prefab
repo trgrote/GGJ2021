@@ -711,12 +711,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _grabbles: {fileID: 11400000, guid: 2d30623c8fc00b24bb8adee6d9c26c05, type: 2}
-  _weapons: {fileID: 0}
+  _weapons: {fileID: 11400000, guid: 2f591499105a89047a30816eab8a9fa4, type: 2}
+  _poisons: {fileID: 11400000, guid: 6eaabb43a0f82c54bb8acb5b93815ac9, type: 2}
+  _grabEvent: {fileID: 11400000, guid: 5ad916d8a545648dbbe63aa2d0d5a1ef, type: 2}
   _eatEvent: {fileID: 11400000, guid: 2b59ee99e09ca0e4aa433dcb43090816, type: 2}
-  _thudEvent: {fileID: 0}
-  _animator: {fileID: 0}
-  _score: {fileID: 0}
+  _eatStopEvent: {fileID: 11400000, guid: 997601ea2a94e08499002aeba7d49d84, type: 2}
+  _thudEvent: {fileID: 11400000, guid: ce98cccf9e8a5455eb154e283b94bb2d, type: 2}
+  _poisonGrabbedEvent: {fileID: 11400000, guid: 9e8840a74728f3249b9a595af91c5de7, type: 2}
+  _animator: {fileID: 28271350861566944}
+  _score: {fileID: 11400000, guid: 9f8bc0f3ff3bdc34c8f0c4472a174f64, type: 2}
   _eatingLength: 4
+  _propHitForce: 14
   _propHoldTransform: {fileID: 873834744}
   _layerOnDrop:
     serializedVersion: 2
@@ -773,7 +778,7 @@ HingeJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0, y: -1.70667}
+  m_ConnectedAnchor: {x: 0, y: 28.44}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0

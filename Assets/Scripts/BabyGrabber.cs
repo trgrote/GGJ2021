@@ -7,8 +7,12 @@ public class BabyGrabber : MonoBehaviour
 {
     [SerializeField] rho.RuntimeGameObjectSet _grabbles;
     [SerializeField] rho.RuntimeGameObjectSet _weapons;
+    [SerializeField] rho.RuntimeGameObjectSet _poisons;
+    [SerializeField] rho.Event _grabEvent;
     [SerializeField] rho.Event _eatEvent;
+    [SerializeField] rho.Event _eatStopEvent;
     [SerializeField] rho.Event _thudEvent;
+    [SerializeField] rho.Event _poisonGrabbedEvent;
 
     [SerializeField] Animator _animator;
 
@@ -79,7 +83,7 @@ public class BabyGrabber : MonoBehaviour
             _currentProp.layer = (int) Mathf.Log(_layerOnDrop.value, 2);
             _currentProp = null;
         }
-
+        _eatStopEvent.Raise();
         _state = BabyState.Grabbing;
     }
 
@@ -92,6 +96,7 @@ public class BabyGrabber : MonoBehaviour
     IEnumerator Eat()
     {
         yield return new WaitForSeconds(_eatingLength);
+        _eatStopEvent.Raise();
         _score._score++;
         
         // Destroy the prop, instead of dropping
@@ -126,14 +131,22 @@ public class BabyGrabber : MonoBehaviour
             _state = BabyState.Eating;
             // Destroy(collider.gameObject);
             _animator.SetTrigger("Eat");
-            _eatEvent.Raise();
+            _grabEvent.Raise();
 
             _alreadyGrabbed.Add(collider.gameObject);
+
+            // Check type
+            if (_poisons.Contains(collider.gameObject))
+            {
+                Debug.Log("Poison Grabbed");
+                _poisonGrabbedEvent.Raise();
+            }
             
             // Move the object to be MY son now
             HoldOnToProp(collider.gameObject);
 
             StartEating();
+            _eatEvent.Raise();
         }
     }
 
