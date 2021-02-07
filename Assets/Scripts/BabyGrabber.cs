@@ -170,6 +170,7 @@ public class BabyGrabber : MonoBehaviour
             _thudEvent.Raise();
             // drop thing currently eating
             DropProp();
+            StopEating();
 
             // Add more impulse to collision
             var normal = collision.relativeVelocity.normalized;
