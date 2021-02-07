@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 5243919146963517556}
   - component: {fileID: 5243919146963517559}
   - component: {fileID: 607810479593633273}
+  - component: {fileID: 266118816339583413}
   m_Layer: 0
   m_Name: Food-Hotsauce
   m_TagString: Untagged
@@ -158,4 +159,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ac76703abb1f65458dcb740cc1d38b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _runtimeSet: {fileID: 11400000, guid: 2d30623c8fc00b24bb8adee6d9c26c05, type: 2}
+  _runtimeSet: {fileID: 11400000, guid: 6eaabb43a0f82c54bb8acb5b93815ac9, type: 2}
+--- !u!114 &266118816339583413
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5243919146963517553}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac76703abb1f65458dcb740cc1d38b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _runtimeSet: {fileID: 0}
