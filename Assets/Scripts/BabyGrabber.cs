@@ -13,6 +13,9 @@ public class BabyGrabber : MonoBehaviour
 
     [SerializeField] Score _score;
 
+    [SerializeField] float _eatingLength = 5f;
+
+
     enum BabyState
     {
         Grabbing = 0,
@@ -21,14 +24,59 @@ public class BabyGrabber : MonoBehaviour
 
     BabyState _state = BabyState.Grabbing;
 
-    [SerializeField] float _eatingLength = 5f;
-
-    IEnumerator _eatingCoroutine;
-
     void Start()
     {
         _score._score = 0;
     }
+
+    #region Prop Holding
+
+    [SerializeField] Transform _propHoldTransform;
+
+    private GameObject _currentProp;
+
+    void HoldOnToProp(GameObject prop)
+    {
+        if (_currentProp)
+        {
+            _currentProp.transform.parent = null;
+            _currentProp = null;
+        }
+
+        var propTransform = prop.transform;
+        propTransform.parent = _propHoldTransform;
+        propTransform.localPosition = Vector2.zero;
+        propTransform.localRotation = Quaternion.identity;
+
+        _currentProp = prop;
+    }
+
+    public void DropProp()
+    {
+        if (_state != BabyState.Eating)
+        {
+            return;
+        }
+
+        if (_currentProp)
+        {
+            _currentProp.transform.parent = null;
+            var propRigidBody = _currentProp.GetComponent<Rigidbody2D>();
+            if (propRigidBody)
+            {
+                propRigidBody.isKinematic = false;
+            }
+            _currentProp = null;
+        }
+
+        _state = BabyState.Grabbing;
+    }
+
+    #endregion
+
+    #region Eating Coroutine
+
+    IEnumerator _eatingCoroutine;
 
     IEnumerator Eat()
     {
@@ -48,6 +96,8 @@ public class BabyGrabber : MonoBehaviour
         StopCoroutine(_eatingCoroutine);
     }
 
+    #endregion
+
     public void OnBabyCollision(Collider2D collider)
     {
         if (_state != BabyState.Grabbing)
@@ -58,9 +108,13 @@ public class BabyGrabber : MonoBehaviour
         if (_grabbles.Contains(collider.gameObject))
         {
             _state = BabyState.Eating;
-            Destroy(collider.gameObject);
+            // Destroy(collider.gameObject);
             _animator.SetTrigger("Eat");
             _eatEvent.Raise();
+            
+            // Move the object to be MY son now
+            HoldOnToProp(collider.gameObject);
+
             StartEating();
         }
     }
@@ -69,7 +123,9 @@ public class BabyGrabber : MonoBehaviour
     {
         if (_weapons.Contains(collision.gameObject))
         {
+            // TODO On Thud, drop thing currently eating
             _thudEvent.Raise();
+            DropProp();
         }
     }
 }

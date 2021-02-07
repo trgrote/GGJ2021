@@ -717,6 +717,7 @@ MonoBehaviour:
   _animator: {fileID: 0}
   _score: {fileID: 0}
   _eatingLength: 4
+  _propHoldTransform: {fileID: 873834744}
 --- !u!50 &9121848248920120000
 Rigidbody2D:
   serializedVersion: 4

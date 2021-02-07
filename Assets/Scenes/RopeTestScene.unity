@@ -1012,6 +1012,10 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: -0.00410151
       objectReference: {fileID: 0}
+    - target: {fileID: 5145367851040349693, guid: 5a939c3baaa7d409aa374f8e70fdcd51, type: 3}
+      propertyPath: m_BodyType
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5320169895227401195, guid: 5a939c3baaa7d409aa374f8e70fdcd51, type: 3}
       propertyPath: m_Name
       value: CrowdAdult-Pizza Variant
