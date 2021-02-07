@@ -718,6 +718,8 @@ MonoBehaviour:
   _eatStopEvent: {fileID: 11400000, guid: 997601ea2a94e08499002aeba7d49d84, type: 2}
   _thudEvent: {fileID: 11400000, guid: ce98cccf9e8a5455eb154e283b94bb2d, type: 2}
   _poisonGrabbedEvent: {fileID: 11400000, guid: 9e8840a74728f3249b9a595af91c5de7, type: 2}
+  _atePoisonEvent: {fileID: 11400000, guid: 8f5655a0863121a4898a7752e2a9b0af, type: 2}
+  _ateFoodEvent: {fileID: 11400000, guid: 039b1a8755e65704886104c687253e05, type: 2}
   _animator: {fileID: 28271350861566944}
   _score: {fileID: 11400000, guid: 9f8bc0f3ff3bdc34c8f0c4472a174f64, type: 2}
   _eatingLength: 4
@@ -778,7 +780,7 @@ HingeJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0, y: 28.44}
+  m_ConnectedAnchor: {x: 0, y: 0}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0

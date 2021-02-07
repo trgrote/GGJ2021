@@ -13,6 +13,8 @@ public class BabyGrabber : MonoBehaviour
     [SerializeField] rho.Event _eatStopEvent;
     [SerializeField] rho.Event _thudEvent;
     [SerializeField] rho.Event _poisonGrabbedEvent;
+    [SerializeField] rho.Event _atePoisonEvent;
+    [SerializeField] rho.Event _ateFoodEvent;
 
     [SerializeField] Animator _animator;
 
@@ -97,7 +99,18 @@ public class BabyGrabber : MonoBehaviour
     {
         yield return new WaitForSeconds(_eatingLength);
         _eatStopEvent.Raise();
-        _score._score++;
+
+        // See what we just ate
+        if (_poisons.Contains(_currentProp))
+        {
+            _atePoisonEvent.Raise();
+            _score._score--;
+        }
+        else
+        {
+            _ateFoodEvent.Raise();
+            _score._score++;
+        }        
         
         // Destroy the prop, instead of dropping
         Destroy(_currentProp);
