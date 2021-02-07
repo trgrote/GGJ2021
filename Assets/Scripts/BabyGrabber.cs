@@ -16,6 +16,7 @@ public class BabyGrabber : MonoBehaviour
 
     [SerializeField] float _eatingLength = 5f;
 
+    [SerializeField] float _propHitForce = 14f;
 
     enum BabyState
     {
@@ -139,10 +140,15 @@ public class BabyGrabber : MonoBehaviour
     void OnCollisionEnter2D(Collision2D collision)
     {
         if (_weapons.Contains(collision.gameObject))
-        {
-            // TODO On Thud, drop thing currently eating
+        {            
             _thudEvent.Raise();
+            // drop thing currently eating
             DropProp();
+
+            // Add more impulse to collision
+            var normal = collision.relativeVelocity.normalized;
+            var rb = GetComponent<Rigidbody2D>();
+            rb.AddForce(normal * _propHitForce, ForceMode2D.Impulse);
         }
     }
 }
