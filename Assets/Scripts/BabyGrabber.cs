@@ -36,6 +36,7 @@ public class BabyGrabber : MonoBehaviour
     #region Prop Holding
 
     [SerializeField] Transform _propHoldTransform;
+    [SerializeField] LayerMask _layerOnDrop;
 
     private GameObject _currentProp;
 
@@ -73,6 +74,8 @@ public class BabyGrabber : MonoBehaviour
                 // This could be an issue if some thing are SUPPOSED TO ALWAYS BE TRIGGERS, but rn we don't have any props that are like that
                 _currentProp.GetComponents<Collider2D>().ToList().ForEach(c => c.isTrigger = false);
             }
+            // Set Layer on drop to ignore collisions except for 'Ground'
+            _currentProp.layer = (int) Mathf.Log(_layerOnDrop.value, 2);
             _currentProp = null;
         }
 
