@@ -82,6 +82,11 @@ public class BabyGrabber : MonoBehaviour
     {
         yield return new WaitForSeconds(_eatingLength);
         _score._score++;
+        
+        // Destroy the prop, instead of dropping
+        Destroy(_currentProp);
+        _currentProp = null;
+
         _state = BabyState.Grabbing;
         _animator.SetTrigger("ReturnToIdle");
     }
